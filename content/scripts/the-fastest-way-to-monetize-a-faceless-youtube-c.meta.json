@@ -1,0 +1,15 @@
+{
+  "topic": "The fastest way to monetize a faceless YouTube channel in 2026",
+  "provider": "DemoLLM (offline template, $0)",
+  "script_path": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\faceless-research\\content\\scripts\\the-fastest-way-to-monetize-a-faceless-youtube-c.txt",
+  "chars": 553,
+  "guard": {
+    "state": "clean",
+    "p_corrupt": 0.0,
+    "onset_char": null,
+    "reasons": "",
+    "classes": [],
+    "summary": "verdict=clean p_corrupt=0.000 released=553/553 chars"
+  },
+  "timestamp": "20260929-012244"
+}

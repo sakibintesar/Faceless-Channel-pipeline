@@ -1,0 +1,58 @@
+{
+  "topic": "The fastest way to monetize a faceless YouTube channel in 2026",
+  "platform": "youtube",
+  "timestamp": "20260929-012241",
+  "stages": {
+    "research": {
+      "source": "simurg.websearch (live)",
+      "count": 6
+    },
+    "script": {
+      "provider": "DemoLLM (offline template, $0)",
+      "guard": "clean",
+      "chars": 553
+    },
+    "factcheck": {
+      "claims_checked": 3,
+      "attested": 1,
+      "thin": 2,
+      "no_record": 0
+    },
+    "seo": {
+      "platform": "youtube",
+      "fields": [
+        "platform",
+        "titles",
+        "title_primary",
+        "description",
+        "tags",
+        "hooks",
+        "affiliate_link",
+        "disclosures"
+      ]
+    },
+    "tts": {
+      "ok": true,
+      "voice": "en-US-ChristopherNeural",
+      "duration_sec": 37.36
+    },
+    "visuals": {
+      "stock_items": 0,
+      "downloaded": 0,
+      "ai_prompts": 3
+    },
+    "assemble": {
+      "ok": true,
+      "out": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\faceless-research\\content\\rendered\\the-fastest-way-to-monetize-a-faceless-youtube-c.mp4",
+      "duration_sec": 38.23,
+      "engine": "moviepy 2.x (MIT)"
+    },
+    "subtitles": {
+      "srt": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\faceless-research\\content\\subtitles\\the-fastest-way-to-monetize-a-faceless-youtube-c.srt"
+    },
+    "upload": {
+      "mode": "dry-run",
+      "ok": true
+    }
+  }
+}

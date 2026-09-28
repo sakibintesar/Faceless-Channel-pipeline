@@ -1,0 +1,15 @@
+{
+  "topic": "How to sell digital products with zero followers",
+  "provider": "DemoLLM (offline template, $0)",
+  "script_path": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\faceless-research\\content\\scripts\\how-to-sell-digital-products-with-zero-followers.txt",
+  "chars": 525,
+  "guard": {
+    "state": "clean",
+    "p_corrupt": 0.0,
+    "onset_char": null,
+    "reasons": "",
+    "classes": [],
+    "summary": "verdict=clean p_corrupt=0.000 released=525/525 chars"
+  },
+  "timestamp": "20260929-012520"
+}
