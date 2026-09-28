@@ -1,0 +1,46 @@
+# Niche definitions for the faceless pipeline.
+# Pick ONE to start; add more after your first 30 days.
+
+niches:
+  ai-money:
+    display_name: "AI & Money Tools"
+    keywords:
+      - "AI side hustles 2026"
+      - "AI tools that make money"
+      - "faceless YouTube automation"
+    example_products:
+      - "Faceless Content Starter Pack (Gumroad, $9)"
+      - "100 AI video prompt pack ($5)"
+    affiliate_programs:
+      - "Amazon Associates (tech + books)"
+      - "Gumroad affiliate marketplace"
+    rpm_note: "$8-25 per 1k views long-form, $0.05-0.15 Shorts"
+    voice: youtube
+
+  digital-products:
+    display_name: "Digital Product Funnels"
+    keywords:
+      - "sell digital products online"
+      - "Gumroad tutorial"
+      - "prompt packs"
+    example_products:
+      - "Notion content calendar template ($12)"
+      - "Faceless starter checklist (free lead magnet)"
+    affiliate_programs:
+      - "Gumroad affiliate"
+      - "Ko-fi"
+    rpm_note: "funnel-based: $2-10 per buyer, no view threshold"
+    voice: instagram
+
+  facts-history:
+    display_name: "Facts & History (volume)"
+    keywords:
+      - "history facts shorts"
+      - "science facts you didn't know"
+      - "space facts"
+    example_products:
+      - "50 Facts ebook ($4)"
+    affiliate_programs:
+      - "Amazon Associates (books)"
+    rpm_note: "$1-6 per 1k views long-form, high retention"
+    voice: youtube

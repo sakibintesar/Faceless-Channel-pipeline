@@ -1,0 +1,489 @@
+{
+ "meta": {
+  "title": "Faceless Content Monetization — automation-ready idea dataset",
+  "generated": "2026-09-27",
+  "workspace": "C:/Users/sakib/.cline/data/workspaces/chat/simurg/faceless-research",
+  "provenance": "Official platform docs (direct fetches) + SIMURG websearch/ground (live, TinyFish, bundled free key) + labeled third-party revenue estimates (faceless.my 2026 RPM data)",
+  "disclaimer": "Revenue figures are estimates, not guarantees. Platform rules verified 2026-09-27 and subject to change.",
+  "automation_level_scale": "1-5 (5 = fully scriptable end-to-end)"
+ },
+ "platforms": {
+  "youtube": {
+   "ad_revenue_share": {
+    "long_form": 0.55,
+    "shorts": 0.45,
+    "premium_pools": "30% of net (Premium) / 60% of net (Premium Lite), distributed by member watch time"
+   },
+   "entry_thresholds_current": {
+    "full_monetization": "1000 subs + 4000 qualified watch hours (365d) OR 10M qualified Shorts views (90d)",
+    "fan_funding_tier": "500 subs + 3 qualified uploads (90d)"
+   },
+   "entry_thresholds_2027_new_creators": {
+    "effective": "2027-02-01",
+    "full_monetization": "8000 qualified watch hours (365d) OR 20M qualified Shorts views (90d)",
+    "note": "does NOT affect creators already in YPP - join before 2027-02-01 to lock old thresholds",
+    "shorts_restructuring": "Shorts rev-share requires 10M views/90d from 2027-02-01; below-threshold channels stay in YPP, keep long-form earnings, auto-resume on crossing 10M; new incentive programs (Shopping bonuses, brand-deal incentives, trend boosts)"
+   },
+   "critical_policy": {
+    "date": "2025-07-15",
+    "name": "inauthentic content (formerly repetitious content)",
+    "rule": "repetitive or mass-produced content ineligible for monetization; reused-content policy (commentary, clips, compilations, reactions) unchanged",
+    "source": "support.google.com/youtube/answer/1311392"
+   },
+   "genai_disclosure": {
+    "required_for": [
+     "real person appears to say/do something they didn't",
+     "alters footage of real event/place",
+     "generates realistic scene that didn't occur"
+    ],
+    "not_required_for": [
+     "non-realistic AI content",
+     "minor aesthetic edits"
+    ],
+    "impact_of_disclosing": "none on audience or monetization eligibility",
+    "risk_if_not_disclosing": [
+     "manual label",
+     "content removal",
+     "YPP suspension"
+    ],
+    "auto_detection": [
+     "YouTube GenAI tools",
+     "C2PA metadata",
+     "internal systems"
+    ],
+    "source": "support.google.com/youtube/answer/14328491"
+   },
+   "rpm_benchmarks_third_party": {
+    "range_usd": "3-40 per 1000 views by niche",
+    "top_niches": [
+     "finance",
+     "business",
+     "AI",
+     "software"
+    ],
+    "low_niches": [
+     "entertainment",
+     "horror",
+     "gaming",
+     "general facts"
+    ],
+    "earnings_ranges": {
+     "small": "$100-500/month",
+     "strong_niche": "$2000-15000/month",
+     "top": "$25000+/month"
+    },
+    "source": "faceless.my 2026 RPM data (research base: 90 channels, 350 videos)"
+   }
+  },
+  "instagram": {
+   "ad_revenue_share": null,
+   "programs": {
+    "bonuses": {
+     "status": "invite-only, limited time",
+     "rewards": "performance of reels and photos incl. carousels + single-image",
+     "rules": "18+, located/tax status Japan-South Korea-US, professional account",
+     "sources": [
+      "help.instagram.com/708013994693013",
+      "creators.instagram.com/bonuses"
+     ]
+    },
+    "gifts": "on Reels",
+    "subscriptions": "recurring monthly income",
+    "brand_deals": "Creator Marketplace + partnership ads"
+   },
+   "official_distribution_tips": [
+    "relatable/humorous content",
+    "inspire connection",
+    "early hook within first seconds"
+   ],
+   "typical_requirements_third_party": [
+    "professional account",
+    "18+",
+    "eligible country",
+    "~10k followers for most earning features"
+   ]
+  },
+  "facebook": {
+   "content_monetization": {
+    "status": "invite-only; open enrolment planned",
+    "express_interest": "dashboard > Monetisation tab > Content Monetisation form",
+    "eligible_formats": [
+     "public reels (minimum 10 seconds)",
+     "photos",
+     "stories",
+     "text posts"
+    ],
+    "sources": [
+     "creators.facebook.com/tools/facebook-content-monetization",
+     "facebook.com/business/help/1049081556813520"
+    ]
+   },
+   "in_stream_ads": {
+    "thresholds": "10000 followers + 600000 total minutes viewed in last 60 days (at least 60000 minutes on Page)",
+    "source": "creators.facebook.com/tools/ad-breaks/v2"
+   },
+   "other_tools": [
+    "Stars",
+    "Subscriptions",
+    "branded content",
+    "Breakthrough bonus"
+   ],
+   "crosspost": "from Instagram officially supported"
+  },
+  "bilibili": {
+   "creator_incentive": {
+    "eligibility": "1000 followers OR 100000 cumulative video views",
+    "pay_rate": "~$0.70 per 1000 views reported but NOT officially fixed - compensation depends on video quality/interaction",
+    "sources": [
+     "gadgetsnow.indiatimes.com",
+     "propakistani.pk 2026-08-25 correction"
+    ]
+   },
+   "platforms": {
+    "bilibili.com": "China (danmaku site)",
+    "bilibili.tv": "Southeast Asia, separate program"
+   },
+   "note": "original content strongly favored; danmaku engagement drives distribution; Mandarin TTS + localized hooks"
+  }
+ },
+ "ideas": [
+  {
+   "id": 1,
+   "name": "Long-form explainer channel (finance/AI/business)",
+   "platforms": [
+    "youtube"
+   ],
+   "monetization_paths": [
+    "YPP long-form ads 55%",
+    "Premium pools",
+    "sponsorships",
+    "affiliates"
+   ],
+   "startup_cost_usd": "0-30",
+   "first_dollar": "2-6 months",
+   "automation_level": 4,
+   "week1_steps": [
+    "D1 niche+competitor scan (simurg.websearch)",
+    "D2-3 three guarded AI scripts -> TTS -> FFmpeg",
+    "D4-5 publish 3x 8-min videos (chapters)",
+    "D6-7 iterate retention"
+   ],
+   "risks": [
+    "inauthentic-content policy",
+    "YPP review"
+   ],
+   "compliance": "original narrative; disclose realistic AI scenes; vary structure per video",
+   "sources": [
+    "support.google.com/youtube/answer/72851",
+    "faceless.my"
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Shorts volume channel (facts/history/science)",
+   "platforms": [
+    "youtube"
+   ],
+   "monetization_paths": [
+    "Shorts rev-share",
+    "fan funding (500 subs + 3 uploads)",
+    "2027 incentive programs"
+   ],
+   "startup_cost_usd": "0-30",
+   "first_dollar": "2-6 months",
+   "automation_level": 5,
+   "week1_steps": [
+    "D1 channel setup + 2SV",
+    "D2-3 generate 30 scripts + voiceovers",
+    "D4-6 batch-assemble, schedule 5/day",
+    "D7 review retention"
+   ],
+   "risks": [
+    "inauthentic-content policy (templated sameness)",
+    "Shorts rev-share needs 10M views/90d from 2027"
+   ],
+   "compliance": "vary hooks/structure per Short; fan-funding tier unchanged - stack early",
+   "sources": [
+    "blog.youtube YPP 2027",
+    "support.google.com/youtube/answer/1311392"
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Facebook Reels conversion pipeline (transform YouTube output)",
+   "platforms": [
+    "facebook"
+   ],
+   "monetization_paths": [
+    "Content Monetisation (invite-only - express interest now)",
+    "Stars",
+    "branded content",
+    "Breakthrough bonus"
+   ],
+   "startup_cost_usd": "0",
+   "first_dollar": "2-5 months",
+   "automation_level": 5,
+   "week1_steps": [
+    "D1 Page setup + express interest via dashboard form",
+    "D2-4 convert 20 Reels (9:16, min 10s)",
+    "D5-7 publish + promote best performer"
+   ],
+   "risks": [
+    "invite-only program"
+   ],
+   "compliance": "Reels must be >=10 seconds to earn; Partner Monetization Policies",
+   "sources": [
+    "creators.facebook.com/tools/facebook-content-monetization",
+    "facebook.com/business/help/1049081556813520"
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Instagram theme page (Reels + carousels)",
+   "platforms": [
+    "instagram"
+   ],
+   "monetization_paths": [
+    "affiliate links",
+    "Gifts on Reels",
+    "Subscriptions",
+    "brand deals via Creator Marketplace"
+   ],
+   "startup_cost_usd": "0",
+   "first_dollar": "1-3 months",
+   "automation_level": 4,
+   "week1_steps": [
+    "D1 professional account + niche bio",
+    "D2-5 publish 20 Reels/carousels (simurg-guarded captions)",
+    "D6 affiliate setup (link-in-bio)",
+    "D7 pitch 10 micro-brands"
+   ],
+   "risks": [
+    "no general ad rev-share",
+    "Bonuses invite-only (18+, US/JP/KR)"
+   ],
+   "compliance": "hooks in first seconds (official tip); relatable content",
+   "sources": [
+    "creators.instagram.com/bonuses",
+    "help.instagram.com/708013994693013"
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Reddit-story clips with original commentary",
+   "platforms": [
+    "youtube",
+    "instagram"
+   ],
+   "monetization_paths": [
+    "YPP Shorts path",
+    "affiliate"
+   ],
+   "startup_cost_usd": "0",
+   "first_dollar": "2-5 months",
+   "automation_level": 4,
+   "week1_steps": [
+    "D1-2 source stories + write commentary (guarded)",
+    "D3-6 20 clips (TTS + gameplay bg + captions), 3/day",
+    "D7 iterate"
+   ],
+   "risks": [
+    "reused-content review"
+   ],
+   "compliance": "must add original commentary/transformation + credit; never verbatim mass-reposting",
+   "sources": [
+    "support.google.com/youtube/answer/1311392 (reused-content policy unchanged)"
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Affiliate product-review Shorts",
+   "platforms": [
+    "youtube",
+    "instagram",
+    "facebook"
+   ],
+   "monetization_paths": [
+    "Amazon Associates (3 sales/180d to stay active)",
+    "other affiliate networks"
+   ],
+   "startup_cost_usd": "0",
+   "first_dollar": "days (no platform threshold)",
+   "automation_level": 5,
+   "week1_steps": [
+    "D1 pick 10 products + join Amazon Associates",
+    "D2-4 15 review Shorts (guarded + fact-checked)",
+    "D5-7 publish + track clicks"
+   ],
+   "risks": [
+    "affiliate disclosure required",
+    "account deactivation if no sales"
+   ],
+   "compliance": "disclose affiliate relationships; honest assessments only",
+   "sources": [
+    "amazon-associates program rules"
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Digital-product funnel (prompt packs, templates, planners)",
+   "platforms": [
+    "all"
+   ],
+   "monetization_paths": [
+    "Gumroad",
+    "Ko-fi (no threshold)"
+   ],
+   "startup_cost_usd": "0",
+   "first_dollar": "days (no threshold)",
+   "automation_level": 4,
+   "week1_steps": [
+    "D1-2 build one product",
+    "D3 landing page",
+    "D4-7 funnel via faceless Shorts/Reels (ideas 2/4 output)"
+   ],
+   "risks": [
+    "needs traffic"
+   ],
+   "compliance": "highest margin per unit of effort; pairs with every other idea",
+   "sources": [
+    "gumroad.com",
+    "ko-fi.com"
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Bilibili knowledge channel (Chinese)",
+   "platforms": [
+    "bilibili"
+   ],
+   "monetization_paths": [
+    "creator incentive (1000 followers OR 100k views)",
+    "charging",
+    "brand deals"
+   ],
+   "startup_cost_usd": "0",
+   "first_dollar": "2-6 months",
+   "automation_level": 3,
+   "week1_steps": [
+    "D1 account + identity verification",
+    "D2-4 three knowledge videos (Mandarin TTS; expected_scripts declared to simurg)",
+    "D5-7 publish + engage danmaku/comments"
+   ],
+   "risks": [
+    "originality enforcement",
+    "China regulations",
+    "pay rate not officially fixed"
+   ],
+   "compliance": "original content strongly favored; declare expected scripts to simurg (language-agnostic drift guard)",
+   "sources": [
+    "gadgetsnow.indiatimes.com",
+    "propakistani.pk (correction)"
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Quiz/trivia interactive Shorts",
+   "platforms": [
+    "youtube",
+    "instagram"
+   ],
+   "monetization_paths": [
+    "YPP later",
+    "sponsorships"
+   ],
+   "startup_cost_usd": "0",
+   "first_dollar": "3-6 months",
+   "automation_level": 4,
+   "week1_steps": [
+    "D1-4 25 quiz Shorts",
+    "D5-7 publish 4/day, pin answer-in-comments"
+   ],
+   "risks": [
+    "monetization later"
+   ],
+   "compliance": "comment-driven engagement boosts distribution (official tip); strong subscribe driver",
+   "sources": [
+    "creators.instagram.com/bonuses (engagement tips)"
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Facts carousels (static AI images)",
+   "platforms": [
+    "instagram",
+    "facebook"
+   ],
+   "monetization_paths": [
+    "affiliate links",
+    "Bonuses (invite-only)"
+   ],
+   "startup_cost_usd": "0",
+   "first_dollar": "1-3 months",
+   "automation_level": 5,
+   "week1_steps": [
+    "D1-2 template + 30 carousels",
+    "D3-7 publish 5/day on IG+FB"
+   ],
+   "risks": [
+    "lowest RPM path"
+   ],
+   "compliance": "use as a traffic engine feeding ideas 4/6/7",
+   "sources": [
+    "creators.instagram.com/bonuses"
+   ]
+  },
+  {
+   "id": 11,
+   "name": "AI-tools tutorial channel + micro-sponsorships",
+   "platforms": [
+    "youtube"
+   ],
+   "monetization_paths": [
+    "sponsorships (no platform threshold)",
+    "YPP later"
+   ],
+   "startup_cost_usd": "0",
+   "first_dollar": "1-2 months",
+   "automation_level": 3,
+   "week1_steps": [
+    "D1-4 three tutorials (screen recording, faceless, guarded scripts)",
+    "D5-7 pitch 20 AI-tool companies for $50-200 integrations"
+   ],
+   "risks": [
+    "sponsorship conversion rate"
+   ],
+   "compliance": "sponsorships need no platform threshold - fastest credible revenue",
+   "sources": [
+    "support.google.com/youtube/answer/72851"
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Ambient/lofi long-form streams",
+   "platforms": [
+    "youtube"
+   ],
+   "monetization_paths": [
+    "YPP long-form ads",
+    "TV watch time (1B+ hours/day on TV)"
+   ],
+   "startup_cost_usd": "0-30",
+   "first_dollar": "4-8 months",
+   "automation_level": 5,
+   "week1_steps": [
+    "D1-2 source original/licensed loops only",
+    "D3-5 assemble 10x 1-hr videos",
+    "D6-7 publish + premiere"
+   ],
+   "risks": [
+    "YPP thresholds",
+    "copyrighted audio will be claimed"
+   ],
+   "compliance": "original/licensed audio only; long-game",
+   "sources": [
+    "blog.youtube (TV watch time)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+simurg==1.0.4
+numpy==2.5.3
+edge-tts==7.2.8
+moviepy==2.2.1
+ffsubsync==0.5.1
+youtube-transcript-api==1.2.4
+requests
+pyyaml

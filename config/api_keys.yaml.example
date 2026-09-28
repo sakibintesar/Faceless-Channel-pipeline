@@ -1,0 +1,22 @@
+# COPY to api_keys.yaml and fill in. api_keys.yaml must stay gitignored.
+# ALL keys below have free tiers — total pipeline cost stays $0.
+
+# simurg ships its TinyFish websearch key bundled — nothing to set here.
+
+openai:              # OPTIONAL — only for live script generation
+  base_url: ""       # e.g. https://openrouter.ai/api/v1 or http://localhost:11434/v1
+  api_key: ""
+  model: ""          # e.g. a free OpenRouter model or a local llama3
+
+pexels:              # free: https://www.pexels.com/api/
+  api_key: ""
+
+pixabay:             # free: https://pixabay.com/api/docs/
+  api_key: ""
+
+youtube:             # free: Google Cloud Console -> YouTube Data API v3
+  client_secrets: "" # OAuth desktop client JSON path
+
+meta:                # free: Meta for Developers -> Page access token
+  page_token: ""
+  page_id: ""

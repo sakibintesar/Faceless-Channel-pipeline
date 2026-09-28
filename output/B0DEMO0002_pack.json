@@ -1,0 +1,132 @@
+{
+ "title": "Honest Review: Ergonomic Office Chair — Worth It? (Tested)",
+ "description_first_line": "Is the ergonomic office chair actually worth it?",
+ "tags": [
+  "ergonomic office chair",
+  "ergonomic office chair review",
+  "honest review",
+  "home office",
+  "shorts",
+  "review"
+ ],
+ "hook_first_3s": "Is the ergonomic office chair actually worth it?",
+ "asin": "B0DEMO0002",
+ "video": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\simurg\\faceless-research\\output\\B0DEMO0002_short.mp4",
+ "guard_state": "clean",
+ "broll": "solid-scene fallback (no PEXELS_API_KEY)",
+ "affiliate_link": "https://www.amazon.com/dp/B0DEMO0002?tag=YOURTAG-20",
+ "affiliate_note": "DEMO ASIN — swap PRODUCTS in pipeline_affiliate_shorts.py with real ones | AMAZON_ASSOCIATE_TAG not set — set it in .env after joining Amazon Associates",
+ "fact_check": {
+  "What works: adjustable lumbar support you can tune daily, 4D armrests that fit any desk height, and breathable mesh for 8-hour sessions.": {
+   "query": "What works: adjustable lumbar support you can tune daily, 4D armrests that fit any desk height, and breathable mesh for 8-hour sessions.",
+   "verdict": "thin",
+   "reason": "web hits found, but the subject itself is not echoed in them — evidence is generic, treat with caution",
+   "hits": 6,
+   "wiki_hits": 0,
+   "wiki_title": "",
+   "source": "tinyfish",
+   "results": [
+    {
+     "title": "Spending long hours at a desk made me ...",
+     "snippet": "I've been using the HBADA E3 Pro, and what stands out most is how naturally it supports different sitting positions throughout the day. The ...",
+     "url": "https://www.instagram.com/reel/DcczYbzJMf4/",
+     "site_name": "www.instagram.com"
+    },
+    {
+     "title": "Best Ergonomic Chairs for Remote Work 2026",
+     "snippet": "Fully adjustable neck, back, and arm support for every body type · Breathable mesh to keep cool all day · Recline function with footrest for rest ...",
+     "url": "https://hbada.com/blogs/hbada-blogs/best-chairs-for-remote-work",
+     "site_name": "hbada.com"
+    },
+    {
+     "title": "HBADA Product FAQ | Frequently Asked Questions & Support",
+     "snippet": "The E3 Air's armrests feature 100mm of depth adjustment and 70mm of height adjustment, allowing you to perfectly align the armrest surface with your desk height ...",
+     "url": "https://www.hbada.eu/pages/faq-product?srsltid=AU7gw4XUs8qR7HJ9Ru_hKkguTpAR47NIP0DGJNvYRerw_es8pSJV1fjD",
+     "site_name": "www.hbada.eu"
+    },
+    {
+     "title": "an ergonomic office chair built for all-day focus. 3-zone ...",
+     "snippet": "3-zone adaptive lumbar support tracks your lower back, the 4D dual-axis headrest eases neck tension, and the 720° armrests stay with you from ...",
+     "url": "https://www.facebook.com/battlerigs/videos/long-days-hit-different-when-your-chair-actually-works-with-you%EF%B8%8Fmeet-the-hbada-e/1799653717714753/",
+     "site_name": "www.facebook.com"
+    },
+    {
+     "title": "Ergonomic Office Chair With Adjustable Arms (2026)",
+     "snippet": "At $132, you're getting a breathable mesh back, functional lumbar and headrest support, and a 330 lb weight limit that covers most users.",
+     "url": "https://www.cuttles.io/chairs/with-adjustable-arms",
+     "site_name": "www.cuttles.io"
+    },
+    {
+     "title": "A Deep Dive into 4D Armrest Adjustability & Benefits",
+     "snippet": "A professional guide on 4D armrest adjustability to prevent musculoskeletal disorders (MSDs) and improve workplace productivity for office ...",
+     "url": "https://eurekaergonomic.com/blogs/eureka-ergonomic-blog/4d-armrest-adjustability-guide-benefits",
+     "site_name": "eurekaergonomic.com"
+    }
+   ],
+   "evidence": [
+    "Spending long hours at a desk made me ... — I've been using the HBADA E3 Pro, and what stands out most is how naturally it supports different sitting positions throughout the day. The ...",
+    "Best Ergonomic Chairs for Remote Work 2026 — Fully adjustable neck, back, and arm support for every body type · Breathable mesh to keep cool all day · Recline function with footrest for rest ...",
+    "HBADA Product FAQ | Frequently Asked Questions & Support — The E3 Air's armrests feature 100mm of depth adjustment and 70mm of height adjustment, allowing you to perfectly align the armrest surface with your desk height ...",
+    "an ergonomic office chair built for all-day focus. 3-zone ... — 3-zone adaptive lumbar support tracks your lower back, the 4D dual-axis headrest eases neck tension, and the 720° armrests stay with you from ...",
+    "Ergonomic Office Chair With Adjustable Arms (2026) — At $132, you're getting a breathable mesh back, functional lumbar and headrest support, and a 330 lb weight limit that covers most users.",
+    "A Deep Dive into 4D Armrest Adjustability & Benefits — A professional guide on 4D armrest adjustability to prevent musculoskeletal disorders (MSDs) and improve workplace productivity for office ..."
+   ]
+  },
+  "What doesn't: assembly takes 30 minutes and the instructions are vague — no reviewer tells you that part.": {
+   "query": "What doesn't: assembly takes 30 minutes and the instructions are vague — no reviewer tells you that part.",
+   "verdict": "thin",
+   "reason": "web hits found, but the subject itself is not echoed in them — evidence is generic, treat with caution",
+   "hits": 6,
+   "wiki_hits": 4,
+   "wiki_title": "Eichmann in Jerusalem",
+   "source": "tinyfish+wiki",
+   "results": [
+    {
+     "title": "Nobody Reviews the Assembly",
+     "snippet": "Nobody reviews the assembly a compiler emits. Increasingly nobody reads the code a model writes either, so the specification becomes the thing you review. a ...",
+     "url": "https://zrz.io/blog/2026-08-nobody-reviews-the-assembly/",
+     "site_name": "zrz.io"
+    },
+    {
+     "title": "Extraordinarily long time to open a simple assembly.",
+     "snippet": "Use \"performance evaluation\" command on the \"Evaluate\" tab of the command manager and it will tell you whats taking so long. Usually it's parts ...",
+     "url": "https://www.reddit.com/r/SolidWorks/comments/10pv0rb/extraordinarily_long_time_to_open_a_simple/",
+     "site_name": "www.reddit.com"
+    },
+    {
+     "title": "PrepTest 120 - Section 1 - Question 24 | Explanation & ...",
+     "snippet": "the assembly experience with instructions must always be much easier than the assembly experience without instructions. If assembly is maximally difficult no ...",
+     "url": "https://7sage.com/question/PT120.S1.Q24",
+     "site_name": "7sage.com"
+    },
+    {
+     "title": "Step-by-Step Assembly Instructions for New Workers",
+     "snippet": "Clear step-by-step assembly instructions reduce errors, speed training, build worker confidence, and improve quality and productivity on ...",
+     "url": "https://retrocausal.ai/blog/step-by-step-assembly-instructions-for-new-workers/",
+     "site_name": "retrocausal.ai"
+    },
+    {
+     "title": "Why Your Large Assembly Is So Slow (And the Simple Fix Most ...",
+     "snippet": "Is your CAD assembly grinding to a halt with buffering, lag, and rainbow wheels of doom? The culprit is probably sitting right in your fastener ...",
+     "url": "https://www.youtube.com/watch?v=ecQG68N9q9Q",
+     "site_name": "www.youtube.com"
+    },
+    {
+     "title": "Slow opening assembly",
+     "snippet": "For example, a file that opened in 1 minute 30 took more than 7 hours to open! Once opened, the file was saved in less than a minute, which ...",
+     "url": "https://forum.mycad.visiativ.com/t/lenteur-ouverture-assemblage/113116?locale=en&lang=en",
+     "site_name": "forum.mycad.visiativ.com"
+    }
+   ],
+   "evidence": [
+    "Nobody Reviews the Assembly — Nobody reviews the assembly a compiler emits. Increasingly nobody reads the code a model writes either, so the specification becomes the thing you review. a ...",
+    "Extraordinarily long time to open a simple assembly. — Use \"performance evaluation\" command on the \"Evaluate\" tab of the command manager and it will tell you whats taking so long. Usually it's parts ...",
+    "PrepTest 120 - Section 1 - Question 24 | Explanation & ... — the assembly experience with instructions must always be much easier than the assembly experience without instructions. If assembly is maximally difficult no ...",
+    "Step-by-Step Assembly Instructions for New Workers — Clear step-by-step assembly instructions reduce errors, speed training, build worker confidence, and improve quality and productivity on ...",
+    "Why Your Large Assembly Is So Slow (And the Simple Fix Most ... — Is your CAD assembly grinding to a halt with buffering, lag, and rainbow wheels of doom? The culprit is probably sitting right in your fastener ...",
+    "Slow opening assembly — For example, a file that opened in 1 minute 30 took more than 7 hours to open! Once opened, the file was saved in less than a minute, which ..."
+   ]
+  }
+ },
+ "upload": "pending"
+}

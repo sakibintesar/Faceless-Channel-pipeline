@@ -1,0 +1,23 @@
+# Posting schedule + daily caps (platform policy: don't spam).
+# Times are local; Shorts/Reels peak late afternoon-evening.
+
+schedule:
+  youtube:
+    uploads_per_day: 3      # API quota allows ~6; stay conservative
+    times: ["12:00", "17:00", "20:00"]
+    formats: ["shorts", "shorts", "longform"]
+  instagram:
+    uploads_per_day: 2
+    times: ["12:30", "19:30"]
+    formats: ["reel", "carousel"]
+  facebook:
+    uploads_per_day: 1
+    times: ["18:00"]
+    formats: ["reel"]
+  bilibili:
+    uploads_per_day: 1
+    times: ["19:00"]
+    formats: ["vertical"]
+
+cross_post: true            # one render -> all platforms
+min_gap_minutes: 30         # never upload twice within this window

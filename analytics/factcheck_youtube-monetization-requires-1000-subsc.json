@@ -1,0 +1,68 @@
+{
+  "timestamp": "20260928-192323",
+  "claims_checked": 1,
+  "attested": 1,
+  "thin": 0,
+  "no_record": 0,
+  "items": [
+    {
+      "claim": "YouTube monetization requires 1000 subscribers.",
+      "verdict": "attested",
+      "action": "ship",
+      "evidence": {
+        "query": "YouTube monetization requires 1000 subscribers.",
+        "reason": "subject attested by 6 web result(s) and Wikipedia (YouTube Shorts)",
+        "hits": 6,
+        "wiki_hits": 19,
+        "wiki_title": "YouTube Shorts",
+        "source": "tinyfish+wiki",
+        "results": [
+          {
+            "title": "You don't need 1000 subs to make money on YouTube...",
+            "snippet": "You cannot monetize a video unless your channel as a MINIMUM of 1k subs and 4k watch hours,",
+            "url": "https://www.reddit.com/r/NewTubers/comments/1abhvsa/you_dont_need_1000_subs_to_make_money_on_youtube/",
+            "site_name": "www.reddit.com"
+          },
+          {
+            "title": "You Don't Need 1000 Subscribers to Get Monetized On Youtube",
+            "snippet": "This video clarifies that the 1,000 subscriber and 4,000 watch hour limit applies strictly to ad revenue, not your ability to generate income.",
+            "url": "https://www.youtube.com/watch?v=lN67Kl_7jsA&xstg=CAMSBhUD-7L2Hw%3D%3D",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "Join the YouTube Partner Program | YouTube for Creators",
+            "snippet": "Unlock more earning features 1,000 subs And either 4,000 qualified watch hours on long-form videos (past 365 days), or 10M qualified Shorts views (past 90 days)",
+            "url": "https://www.youtube.com/creators/earn/youtube-partner-program/",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "YouTube Monetization Requirements 2026 Guide",
+            "snippet": "Getting fully monetized on YouTube requires reaching 1,000 subscribers and hitting 4,000 hours of watch time over 12 months.",
+            "url": "https://www.tubebuddy.com/blog/youtube-monetization-requirements/",
+            "site_name": "www.tubebuddy.com"
+          },
+          {
+            "title": "How to reach YouTube monetization requirements with ...",
+            "snippet": "I want that monetization SO freaking bad. Like, yesterday. I don't care if it's a penny, I want it to be a thing. Ugh, how do you deal with your ...",
+            "url": "https://www.facebook.com/groups/732672551381328/posts/1105962244052355/",
+            "site_name": "www.facebook.com"
+          },
+          {
+            "title": "Can I monetize my YouTube channel without 1000 ...",
+            "snippet": "Can I monetize my YouTube channel without 1,000 subscribers?",
+            "url": "https://www.quora.com/Can-I-monetize-my-YouTube-channel-without-1-000-subscribers",
+            "site_name": "www.quora.com"
+          }
+        ],
+        "evidence": [
+          "You don't need 1000 subs to make money on YouTube... — You cannot monetize a video unless your channel as a MINIMUM of 1k subs and 4k watch hours,",
+          "You Don't Need 1000 Subscribers to Get Monetized On Youtube — This video clarifies that the 1,000 subscriber and 4,000 watch hour limit applies strictly to ad revenue, not your ability to generate income.",
+          "Join the YouTube Partner Program | YouTube for Creators — Unlock more earning features 1,000 subs And either 4,000 qualified watch hours on long-form videos (past 365 days), or 10M qualified Shorts views (past 90 days)",
+          "YouTube Monetization Requirements 2026 Guide — Getting fully monetized on YouTube requires reaching 1,000 subscribers and hitting 4,000 hours of watch time over 12 months.",
+          "How to reach YouTube monetization requirements with ... — I want that monetization SO freaking bad. Like, yesterday. I don't care if it's a penny, I want it to be a thing. Ugh, how do you deal with your ...",
+          "Can I monetize my YouTube channel without 1000 ... — Can I monetize my YouTube channel without 1,000 subscribers?"
+        ]
+      }
+    }
+  ]
+}

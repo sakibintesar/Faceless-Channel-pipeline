@@ -1,0 +1,13 @@
+# TTS voice presets per platform (edge-tts — free, keyless).
+# Browse all voices:  edge-tts --list-voices
+
+voices:
+  youtube: "en-US-ChristopherNeural"    # deep, documentary tone
+  instagram: "en-US-JennyNeural"        # warm, conversational
+  tiktok: "en-US-AriaNeural"            # bright, energetic
+  facebook: "en-US-GuyNeural"           # neutral newsreader
+  bilibili: "zh-CN-YunxiNeural"         # Mandarin, young male
+  bilibili_alt: "zh-CN-XiaoxiaoNeural"  # Mandarin, female
+
+rate: "+0%"    # speaking-rate adjust, e.g. "+8%" for faster Shorts
+pitch: "+0Hz"

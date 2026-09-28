@@ -1,0 +1,186 @@
+{
+  "timestamp": "20260928-194020",
+  "claims_checked": 3,
+  "attested": 0,
+  "thin": 3,
+  "no_record": 0,
+  "items": [
+    {
+      "claim": "Stop scrolling — 5 AI side hustles that actually pay in 2026 is the side hustle nobody is talking about.",
+      "verdict": "thin",
+      "action": "flag for manual review or rewrite",
+      "evidence": {
+        "query": "Stop scrolling — 5 AI side hustles that actually pay in 2026 is the side hustle nobody is talking about.",
+        "reason": "web hits found, but the subject itself is not echoed in them — evidence is generic, treat with caution",
+        "hits": 6,
+        "wiki_hits": 0,
+        "wiki_title": "",
+        "source": "tinyfish",
+        "results": [
+          {
+            "title": "The Best AI Side Hustles To Start In 2026 (No Skills)",
+            "snippet": "Here&#39;s the full breakdown of the best AI business to start & make $10k+/month: 5 Claude AI Side Hustles You Can Run While Working Full- ...",
+            "url": "https://www.youtube.com/watch?v=q1g65sjQI-4",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "I scraped the internet so you do not have to. These are ...",
+            "snippet": "1. Faceless TikTok accounts promoting apps · 2. Selling digital resources for teachers · 3. Simple AI automation services · 4. Reddit ghostwriting ...",
+            "url": "https://www.reddit.com/r/WFHJobs/comments/1rti6zl/i_scraped_the_internet_so_you_do_not_have_to/",
+            "site_name": "www.reddit.com"
+          },
+          {
+            "title": "I Tried 5 AI Side Hustles in 2026 — Here's What Actually ...",
+            "snippet": "Everyone is talking about making money with AI. But most articles give you a list of ideas with zero proof they actually work.",
+            "url": "https://medium.com/@grifrag/i-tried-5-ai-side-hustles-in-2026-heres-what-actually-made-money-32dc1c52b9b9",
+            "site_name": "medium.com"
+          },
+          {
+            "title": "5 AI Side Hustles Making Students Rich in 2026",
+            "snippet": "This video breaks down the five AI side hustles that can realistically put you past $1,000 a month in 2026, what each one actually pays, and ...",
+            "url": "https://www.youtube.com/watch?v=yzIw54gIJZI",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "Best AI Side Hustles in 2026: 50 Beginner Ideas, Tools & Pay",
+            "snippet": "Compare 50 AI side hustle ideas by startup cost, difficulty, tools, and earning path, with beginner-friendly options and realistic risks.",
+            "url": "https://coursiv.io/blog/ai-side-hustles-2026",
+            "site_name": "coursiv.io"
+          },
+          {
+            "title": "What online side hustle actually works in 2026?",
+            "snippet": "What online side hustle actually works in 2026?",
+            "url": "https://www.quora.com/What-online-side-hustle-actually-works-in-2026",
+            "site_name": "www.quora.com"
+          }
+        ],
+        "evidence": [
+          "The Best AI Side Hustles To Start In 2026 (No Skills) — Here&#39;s the full breakdown of the best AI business to start & make $10k+/month: 5 Claude AI Side Hustles You Can Run While Working Full- ...",
+          "I scraped the internet so you do not have to. These are ... — 1. Faceless TikTok accounts promoting apps · 2. Selling digital resources for teachers · 3. Simple AI automation services · 4. Reddit ghostwriting ...",
+          "I Tried 5 AI Side Hustles in 2026 — Here's What Actually ... — Everyone is talking about making money with AI. But most articles give you a list of ideas with zero proof they actually work.",
+          "5 AI Side Hustles Making Students Rich in 2026 — This video breaks down the five AI side hustles that can realistically put you past $1,000 a month in 2026, what each one actually pays, and ...",
+          "Best AI Side Hustles in 2026: 50 Beginner Ideas, Tools & Pay — Compare 50 AI side hustle ideas by startup cost, difficulty, tools, and earning path, with beginner-friendly options and realistic risks.",
+          "What online side hustle actually works in 2026? — What online side hustle actually works in 2026?"
+        ]
+      }
+    },
+    {
+      "claim": "Here is the honest math on 5 AI side hustles that actually pay in 2026.",
+      "verdict": "thin",
+      "action": "flag for manual review or rewrite",
+      "evidence": {
+        "query": "Here is the honest math on 5 AI side hustles that actually pay in 2026.",
+        "reason": "web hits found, but the subject itself is not echoed in them — evidence is generic, treat with caution",
+        "hits": 6,
+        "wiki_hits": 2,
+        "wiki_title": "List of The Daily Show episodes (2025)",
+        "source": "tinyfish+wiki",
+        "results": [
+          {
+            "title": "5 AI Side Hustles Making Students Rich in 2026",
+            "snippet": "This video breaks down the five AI side hustles that can realistically put you past $1,000 a month in 2026, what each one actually pays, and ...",
+            "url": "https://www.youtube.com/watch?v=yzIw54gIJZI",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "I Tried 5 AI Side Hustles in 2026 — Here's What Actually ...",
+            "snippet": "I pitched 30 businesses and closed 2. Both paid under $50 per article. My average project now earns between $500 and $1,500. AI multiplies your ...",
+            "url": "https://medium.com/@grifrag/i-tried-5-ai-side-hustles-in-2026-heres-what-actually-made-money-32dc1c52b9b9",
+            "site_name": "medium.com"
+          },
+          {
+            "title": "The Best AI Side Hustles To Start In 2026 (No Skills)",
+            "snippet": "Here's the full breakdown of the best AI business to start & make $10k+/month: https://youtu.be/pPpb4t2eV2M.",
+            "url": "https://www.youtube.com/watch?v=q1g65sjQI-4",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "10 AI Side Hustles That Are Actually Making People Money ...",
+            "snippet": "1. Custom AI Agent Development for Local Businesses Realistic Income: $3,000–15,000/month Time Investment: 15–25 hours/week Startup Cost: $50– ...",
+            "url": "https://ai.plainenglish.io/10-ai-side-hustles-that-are-actually-making-people-money-in-2026-23c78d0a71ac",
+            "site_name": "ai.plainenglish.io"
+          },
+          {
+            "title": "25+ Best Side Hustles to Make Extra Money in 2026",
+            "snippet": "Freelance writing, virtual assistance, online tutoring, transcription, voice acting, bookkeeping, graphic design, custom GPT building, and AI ...",
+            "url": "https://www.monarch.com/blog/personal-finance/best-side-hustles-to-make-extra-money",
+            "site_name": "www.monarch.com"
+          },
+          {
+            "title": "52 Side Hustle Ideas Ranked by Hourly Pay (2026 Data)",
+            "snippet": "Experienced writers earn $0.15–$1.00+ per word, with niches like fintech, healthcare, and AI commanding premium rates. AI tools can assist research but Google ...",
+            "url": "https://ideaproof.io/lists/side-hustle-ideas",
+            "site_name": "ideaproof.io"
+          }
+        ],
+        "evidence": [
+          "5 AI Side Hustles Making Students Rich in 2026 — This video breaks down the five AI side hustles that can realistically put you past $1,000 a month in 2026, what each one actually pays, and ...",
+          "I Tried 5 AI Side Hustles in 2026 — Here's What Actually ... — I pitched 30 businesses and closed 2. Both paid under $50 per article. My average project now earns between $500 and $1,500. AI multiplies your ...",
+          "The Best AI Side Hustles To Start In 2026 (No Skills) — Here's the full breakdown of the best AI business to start & make $10k+/month: https://youtu.be/pPpb4t2eV2M.",
+          "10 AI Side Hustles That Are Actually Making People Money ... — 1. Custom AI Agent Development for Local Businesses Realistic Income: $3,000–15,000/month Time Investment: 15–25 hours/week Startup Cost: $50– ...",
+          "25+ Best Side Hustles to Make Extra Money in 2026 — Freelance writing, virtual assistance, online tutoring, transcription, voice acting, bookkeeping, graphic design, custom GPT building, and AI ...",
+          "52 Side Hustle Ideas Ranked by Hourly Pay (2026 Data) — Experienced writers earn $0.15–$1.00+ per word, with niches like fintech, healthcare, and AI commanding premium rates. AI tools can assist research but Google ..."
+        ]
+      }
+    },
+    {
+      "claim": "The fastest first dollar comes from affiliate links, which pay before ad revenue unlocks.",
+      "verdict": "thin",
+      "action": "flag for manual review or rewrite",
+      "evidence": {
+        "query": "The fastest first dollar comes from affiliate links, which pay before ad revenue unlocks.",
+        "reason": "web hits found, but the subject itself is not echoed in them — evidence is generic, treat with caution",
+        "hits": 6,
+        "wiki_hits": 8,
+        "wiki_title": "Wikipedia",
+        "source": "tinyfish+wiki",
+        "results": [
+          {
+            "title": "I Made My First Affiliate Sale Using AI and YouTube",
+            "snippet": "Complete beginner's guide to earning your first affiliate commission using YouTube and AI tools in 90 days.",
+            "url": "https://www.youtube.com/watch?v=lfvdCwsgkns",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "Those who have started making money with AM.. How long ...",
+            "snippet": "And how much are you making now? How long have you been at it as well?\n\nI just want a good idea of what to expect from Affiliate Marketing. I don’t expect ...",
+            "url": "https://www.reddit.com/r/Affiliatemarketing/comments/hlr39s/those_who_have_started_making_money_with_am_how/",
+            "site_name": "www.reddit.com"
+          },
+          {
+            "title": "How Fast Can You Make Good Money With Affiliate ...",
+            "snippet": "Most well-made niche sites will see their first affiliate commissions within the first 6 months. But there is a huge difference between a site that makes a few ...",
+            "url": "https://onlinesellingexperiment.com/how-fast-can-affiliate-marketing-generate-money/",
+            "site_name": "onlinesellingexperiment.com"
+          },
+          {
+            "title": "Affiliate Marketing Tutorial For Beginners 2026 (Ultimate Step- ...",
+            "snippet": "In this video, you'll learn how I make over $40,000/month with affiliate marketing and the BEST way you can get started as a beginner.",
+            "url": "https://www.youtube.com/watch?v=wLm-yYco8tQ",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "How Fast Can You Make Money with Affiliate Marketing?",
+            "snippet": "First commissions can happen on Day 1, but consistent income typically takes 3-6 months of focused execution. Speed to sale is dictated by four ...",
+            "url": "https://www.clickbank.com/blog/how-fast-can-you-make-money-with-affiliate-marketing",
+            "site_name": "www.clickbank.com"
+          },
+          {
+            "title": "How I Make Money ($150k/year) With Affiliate Marketing",
+            "snippet": "If they buy something using your affiliate link, you get a commission from the sale. Use Coupon Codes. Get a good camera, invest in good ...",
+            "url": "https://onlinemediamasters.com/how-to-make-money-with-affiliate-marketing/",
+            "site_name": "onlinemediamasters.com"
+          }
+        ],
+        "evidence": [
+          "I Made My First Affiliate Sale Using AI and YouTube — Complete beginner's guide to earning your first affiliate commission using YouTube and AI tools in 90 days.",
+          "Those who have started making money with AM.. How long ... — And how much are you making now? How long have you been at it as well?\n\nI just want a good idea of what to expect from Affiliate Marketing. I don’t expect ...",
+          "How Fast Can You Make Good Money With Affiliate ... — Most well-made niche sites will see their first affiliate commissions within the first 6 months. But there is a huge difference between a site that makes a few ...",
+          "Affiliate Marketing Tutorial For Beginners 2026 (Ultimate Step- ... — In this video, you'll learn how I make over $40,000/month with affiliate marketing and the BEST way you can get started as a beginner.",
+          "How Fast Can You Make Money with Affiliate Marketing? — First commissions can happen on Day 1, but consistent income typically takes 3-6 months of focused execution. Speed to sale is dictated by four ...",
+          "How I Make Money ($150k/year) With Affiliate Marketing — If they buy something using your affiliate link, you get a commission from the sale. Use Coupon Codes. Get a good camera, invest in good ..."
+        ]
+      }
+    }
+  ]
+}

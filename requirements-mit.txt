@@ -1,0 +1,16 @@
+# Strictly MIT-licensed dependencies (commercial use, modification,
+# distribution — all permitted; keep each LICENSE file for attribution).
+moviepy==2.2.1
+ffsubsync==0.5.1
+youtube-transcript-api==1.2.4
+pyyaml
+
+# Permissive (non-MIT) companions — also fine commercially:
+#   simurg    Apache-2.0   (guard + free websearch — the core monitor)
+#   requests  Apache-2.0
+#   numpy     BSD-3-Clause
+#
+#   edge-tts  GPL-3.0 — fine as an UNMODIFIED tool for a non-distributed
+#   side gig (calling a CLI/library does not make your code GPL). If you
+#   ever redistribute the app itself, prefer a permissive TTS or invoke
+#   edge-tts via subprocess with your own pipeline code.

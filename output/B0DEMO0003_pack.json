@@ -1,0 +1,77 @@
+{
+ "title": "Honest Review: Smart Water Bottle — Worth It? (Tested)",
+ "description_first_line": "Three specs decide whether a smart water bottle is good — most reviews skip two of them.",
+ "tags": [
+  "smart water bottle",
+  "smart water bottle review",
+  "honest review",
+  "health",
+  "shorts",
+  "review"
+ ],
+ "hook_first_3s": "Three specs decide whether a smart water bottle is good — most reviews skip two of them.",
+ "asin": "B0DEMO0003",
+ "video": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\simurg\\faceless-research\\output\\B0DEMO0003_short.mp4",
+ "guard_state": "clean",
+ "broll": "solid-scene fallback (no PEXELS_API_KEY)",
+ "affiliate_link": "https://www.amazon.com/dp/B0DEMO0003?tag=YOURTAG-20",
+ "affiliate_note": "DEMO ASIN — swap PRODUCTS in pipeline_affiliate_shorts.py with real ones | AMAZON_ASSOCIATE_TAG not set — set it in .env after joining Amazon Associates",
+ "fact_check": {
+  "Then keeps drinks cold for 24 hours.": {
+   "query": "Then keeps drinks cold for 24 hours.",
+   "verdict": "attested",
+   "reason": "subject attested by 6 web result(s) and Wikipedia (24 Hours in A&E)",
+   "hits": 6,
+   "wiki_hits": 928,
+   "wiki_title": "24 Hours in A&E",
+   "source": "tinyfish+wiki",
+   "results": [
+    {
+     "title": "Amazon.com: Keep Drinks Cold For 24 Hours",
+     "snippet": "1-48 of over 10,000 results for \"keep drinks cold for 24 hours\" Results Check each product page for other buying options. Price and other details may vary based on product size and color.",
+     "url": "https://www.amazon.com/keep-drinks-cold-24-hours/s?k=keep+drinks+cold+for+24+hours",
+     "site_name": "www.amazon.com"
+    },
+    {
+     "title": "Amazon.com: Tumbler That Keeps Ice Cold For 24 Hrs",
+     "snippet": "1-48 of 500 results for \"tumbler that keeps ice cold for 24 hrs\" Results Check each product page for other buying options. Price and other details may vary based on product size and color.",
+     "url": "https://www.amazon.com/s?k=tumbler+that+keeps+ice+cold+for+24+hrs",
+     "site_name": "www.amazon.com"
+    },
+    {
+     "title": "Which Water Bottles Keep Drinks Cold & Hot the Longest? 46 Tested",
+     "snippet": "I tested 46 insulated water bottles for 24-hour cold retention and 12-hour heat retention. See which bottles kept drinks cold and hot the longest.",
+     "url": "https://waterbottleadvisor.com/which-water-bottles-keep-drinks-cold-and-hot-the-longest/",
+     "site_name": "waterbottleadvisor.com"
+    },
+    {
+     "title": "10 Best 24-Hour Cold Bottles for All-Day Hydration",
+     "snippet": "The RAYMYLO Insulated Water Bottle holds 24 ounces and keeps drinks cold for 48 hours or hot for 24 hours. Its triple wall vacuum insulation makes every sip perfect for your active life.",
+     "url": "https://goodtasteofhome.com/best-24-hour-cold-bottles/",
+     "site_name": "goodtasteofhome.com"
+    },
+    {
+     "title": "10 Best Cold Retention Water Bottles: 24-Hour Ice Cold ...",
+     "snippet": "The Owala FreeSip water bottle holds 24 ounces of your favorite drink. It comes in a soft Shy Marshmallow color. This bottle has a patented FreeSip spout for easy sipping. You can use the built-in straw or tilt to swig. The push-button lid locks to keep things clean. It keeps drinks cold for up to 24 hours with double-wall insulation. The bottle is BPA-free and safe for daily use.",
+     "url": "https://goodtasteofhome.com/best-cold-retention-water-bottles/",
+     "site_name": "goodtasteofhome.com"
+    },
+    {
+     "title": "Best Insulated Water Bottles That Keep Ice For 24+ Hours",
+     "snippet": "By focusing on double-wall vacuum insulation, quality materials, and a well-designed, insulated lid, you can confidently choose an insulated water bottle that will keep your ice frozen for 24 hours or more, ensuring refreshing cold drinks all day long.",
+     "url": "https://scooks.com/kitchen/best-insulated-water-bottle-that-keeps-ice-for-24-hours/",
+     "site_name": "scooks.com"
+    }
+   ],
+   "evidence": [
+    "Amazon.com: Keep Drinks Cold For 24 Hours — 1-48 of over 10,000 results for \"keep drinks cold for 24 hours\" Results Check each product page for other buying options. Price and other details may vary based on product size and color.",
+    "Amazon.com: Tumbler That Keeps Ice Cold For 24 Hrs — 1-48 of 500 results for \"tumbler that keeps ice cold for 24 hrs\" Results Check each product page for other buying options. Price and other details may vary based on product size and color.",
+    "Which Water Bottles Keep Drinks Cold & Hot the Longest? 46 Tested — I tested 46 insulated water bottles for 24-hour cold retention and 12-hour heat retention. See which bottles kept drinks cold and hot the longest.",
+    "10 Best 24-Hour Cold Bottles for All-Day Hydration — The RAYMYLO Insulated Water Bottle holds 24 ounces and keeps drinks cold for 48 hours or hot for 24 hours. Its triple wall vacuum insulation makes every sip perfect for your active life.",
+    "10 Best Cold Retention Water Bottles: 24-Hour Ice Cold ... — The Owala FreeSip water bottle holds 24 ounces of your favorite drink. It comes in a soft Shy Marshmallow color. This bottle has a patented FreeSip spout for easy sipping. You can use the built-in straw or tilt to swig. The push-button lid locks to keep things clean. It keeps drinks cold for up to 24 hours with double-wall insulation. The bottle is BPA-free and safe for daily use.",
+    "Best Insulated Water Bottles That Keep Ice For 24+ Hours — By focusing on double-wall vacuum insulation, quality materials, and a well-designed, insulated lid, you can confidently choose an insulated water bottle that will keep your ice frozen for 24 hours or more, ensuring refreshing cold drinks all day long."
+   ]
+  }
+ },
+ "upload": "pending"
+}

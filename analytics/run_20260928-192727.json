@@ -1,0 +1,57 @@
+{
+  "topic": "5 AI side hustles that actually pay in 2026",
+  "platform": "youtube",
+  "timestamp": "20260928-192706",
+  "stages": {
+    "research": {
+      "source": "simurg.websearch (live)",
+      "count": 6
+    },
+    "guard_demo": {
+      "state": "corrupt",
+      "onset_char": 400,
+      "reasons": [
+        "repetition loop rate=0.62 zlib=0.23",
+        "vocabulary collapse ttr=0.11"
+      ]
+    },
+    "script": {
+      "provider": "DemoLLM (offline template, $0)",
+      "guard": "clean",
+      "chars": 515
+    },
+    "factcheck": {
+      "claims_checked": 3,
+      "attested": 0,
+      "thin": 3,
+      "no_record": 0
+    },
+    "seo": {
+      "platform": "youtube",
+      "fields": [
+        "platform",
+        "titles",
+        "title_primary",
+        "description",
+        "tags",
+        "hooks",
+        "affiliate_link",
+        "disclosures"
+      ]
+    },
+    "tts": {
+      "ok": true,
+      "voice": "en-US-ChristopherNeural",
+      "duration_sec": null
+    },
+    "visuals": {
+      "stock_items": 0,
+      "downloaded": 0,
+      "ai_prompts": 3
+    },
+    "upload": {
+      "mode": "dry-run",
+      "ok": true
+    }
+  }
+}

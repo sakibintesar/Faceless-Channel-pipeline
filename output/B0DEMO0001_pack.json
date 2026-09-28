@@ -1,0 +1,187 @@
+{
+ "title": "Honest Review: Wireless Earbuds — Worth It? (Tested)",
+ "description_first_line": "Most people they die halfway through the commute — and blame the wrong thing.",
+ "tags": [
+  "wireless earbuds",
+  "wireless earbuds review",
+  "honest review",
+  "tech",
+  "shorts",
+  "review"
+ ],
+ "hook_first_3s": "Most people they die halfway through the commute — and blame the wrong thing.",
+ "asin": "B0DEMO0001",
+ "video": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\simurg\\faceless-research\\output\\B0DEMO0001_short.mp4",
+ "guard_state": "clean",
+ "broll": "solid-scene fallback (no PEXELS_API_KEY)",
+ "affiliate_link": "https://www.amazon.com/dp/B0DEMO0001?tag=YOURTAG-20",
+ "affiliate_note": "DEMO ASIN — swap PRODUCTS in pipeline_affiliate_shorts.py with real ones | AMAZON_ASSOCIATE_TAG not set — set it in .env after joining Amazon Associates",
+ "fact_check": {
+  "Two: 36-hour total battery with the case.": {
+   "query": "Two: 36-hour total battery with the case.",
+   "verdict": "attested",
+   "reason": "subject attested by 6 web result(s) and Wikipedia (Battery energy storage system)",
+   "hits": 6,
+   "wiki_hits": 2737,
+   "wiki_title": "Battery energy storage system",
+   "source": "tinyfish+wiki",
+   "results": [
+    {
+     "title": "2016 FCAM AERIALS OPTION PRICING.xlsx",
+     "snippet": "MOUNTING HOURLY LABOR RATE $108.00 FCAM-20 SERVICE, REPAIR AND SHOP HOURLY LABOR RATE $109.00. FCAM- 36 79' REAR MOUNT. ONLY $4,900.00",
+     "url": "http://www.mapc.org/wp-content/uploads/2017/09/FCAM-2016-Aerials-KME-Pricing.pdf",
+     "site_name": "www.mapc.org"
+    },
+    {
+     "title": "gude-landfill-remediation-90-design-submission-project- ...",
+     "snippet": "total hours per labor classification, one (1) battery operated ceiling-mounted smoke detector. thirty-six ( 36 ) inches in size.",
+     "url": "https://assets.montgomerycountymd.gov/files/gude-landfill-remediation-90-design-submission-project-manual.pdf",
+     "site_name": "assets.montgomerycountymd.gov"
+    },
+    {
+     "title": "L. c. 1 Jan ye 13th 1673 +ffryday morning the Lds met ...",
+     "snippet": "L. c. 1 Jan ye 13th 1673. +ffryday morning the Lds met againe & read ye Bill about debtors giveing satisfaction to Creditors, but rejected it & yr being ... Read more",
+     "url": "https://folgerpedia.folger.edu/images/2/20/Newdig1.PDF",
+     "site_name": "folgerpedia.folger.edu"
+    },
+    {
+     "title": "MILITARY LAW REVIEW",
+     "snippet": "MILITARY LAW REVIEW - VOL. 112. The Military Law Review has been published quarterly at The. Judge Advocate General's School, U.S. Army, Charlottesville,. Read more",
+     "url": "https://tile.loc.gov/storage-services/service/ll/llmlp/58062115_276C69_1/58062115_276C69_1.pdf",
+     "site_name": "tile.loc.gov"
+    },
+    {
+     "title": "ADOPTED",
+     "snippet": "May 2, 2017 — The facility located on Telstar Avenue is in the process of being sold and the Sheriff must vacate the facility upon completion of the sale. 72 pages",
+     "url": "http://file.lacounty.gov/SDSInter/bos/supdocs/113326.pdf",
+     "site_name": "file.lacounty.gov"
+    },
+    {
+     "title": "19980023098.pdf",
+     "snippet": "Sep 1, 1996 — The NASA Propagation Experimenters (NAPEX) Meeting is convened each year to discuss studies supported by the NASA Propagation Program.",
+     "url": "https://ntrs.nasa.gov/api/citations/19980023098/downloads/19980023098.pdf?attachment=true",
+     "site_name": "ntrs.nasa.gov"
+    }
+   ],
+   "evidence": [
+    "2016 FCAM AERIALS OPTION PRICING.xlsx — MOUNTING HOURLY LABOR RATE $108.00 FCAM-20 SERVICE, REPAIR AND SHOP HOURLY LABOR RATE $109.00. FCAM- 36 79' REAR MOUNT. ONLY $4,900.00",
+    "gude-landfill-remediation-90-design-submission-project- ... — total hours per labor classification, one (1) battery operated ceiling-mounted smoke detector. thirty-six ( 36 ) inches in size.",
+    "L. c. 1 Jan ye 13th 1673 +ffryday morning the Lds met ... — L. c. 1 Jan ye 13th 1673. +ffryday morning the Lds met againe & read ye Bill about debtors giveing satisfaction to Creditors, but rejected it & yr being ... Read more",
+    "MILITARY LAW REVIEW — MILITARY LAW REVIEW - VOL. 112. The Military Law Review has been published quarterly at The. Judge Advocate General's School, U.S. Army, Charlottesville,. Read more",
+    "ADOPTED — May 2, 2017 — The facility located on Telstar Avenue is in the process of being sold and the Sheriff must vacate the facility upon completion of the sale. 72 pages",
+    "19980023098.pdf — Sep 1, 1996 — The NASA Propagation Experimenters (NAPEX) Meeting is convened each year to discuss studies supported by the NASA Propagation Program."
+   ]
+  },
+  "Three: USB-C fast charge — 10 minutes buys an hour.": {
+   "query": "Three: USB-C fast charge — 10 minutes buys an hour.",
+   "verdict": "attested",
+   "reason": "subject attested by 6 web result(s) and Wikipedia (USB-C)",
+   "hits": 6,
+   "wiki_hits": 65,
+   "wiki_title": "USB-C",
+   "source": "tinyfish+wiki",
+   "results": [
+    {
+     "title": "I've Never Seen A USB-C Charger This Good!",
+     "snippet": "The USB-C chargers were tested for standby power, maximum watt-hours (WH) after 30 minutes of charging one device, temperature, charger ...",
+     "url": "https://www.youtube.com/watch?v=1jAeEPHvDyA",
+     "site_name": "www.youtube.com"
+    },
+    {
+     "title": "Is USB-C to USB-C not any faster then ...",
+     "snippet": "I always thought C to see direct was nominally faster?",
+     "url": "https://www.reddit.com/r/UsbCHardware/comments/189yakm/is_usbc_to_usbc_not_any_faster_then_usbc_to_usba/",
+     "site_name": "www.reddit.com"
+    },
+    {
+     "title": "Daughter's USB-C charger gives extra 7% phone charge in ...",
+     "snippet": "Wow! My daughters USB/C has just charged my phone an extra 7% in 3 mins. Blown away!",
+     "url": "https://www.facebook.com/groups/dullmensclub/posts/1309663253023546/",
+     "site_name": "www.facebook.com"
+    },
+    {
+     "title": "The Best USB Phone Charger",
+     "snippet": "The Anker PowerPort III Nano is the best option for charging any phone fast: It's tiny and inexpensive, and it can get a fully drained phone ...",
+     "url": "https://www.nytimes.com/wirecutter/reviews/best-multiport-usb-wall-charger/",
+     "site_name": "www.nytimes.com"
+    },
+    {
+     "title": "USB-C Power Delivery: How Does Fast Charging Work? - uni",
+     "snippet": "USB-C Power Delivery: How Does Fast Charging Work? ; Samsung Galaxy S21 Ultra. 5000 mAh. 1 hour 10 minutes. 25W USB-C ; Google Pixel 6. 4614 mAh.",
+     "url": "https://uniaccessories.com/blogs/blog/usb-c-power-delivery-how-does-fast-charging-work?srsltid=AU7gw4USOUrEcgfL3GvRSmACCCRbFiiSDUdPFtNrTwXnXu25I4RIndXI",
+     "site_name": "uniaccessories.com"
+    },
+    {
+     "title": "The BEST USB-C wall chargers: OVER 20 adapters TESTED! ...",
+     "snippet": "We have tested more than 30 of the most popular USB-C chargers on the market in a search for the best ones. From lower power, cheaper ...",
+     "url": "https://www.youtube.com/watch?v=YdtXzqQZuJ8",
+     "site_name": "www.youtube.com"
+    }
+   ],
+   "evidence": [
+    "I've Never Seen A USB-C Charger This Good! — The USB-C chargers were tested for standby power, maximum watt-hours (WH) after 30 minutes of charging one device, temperature, charger ...",
+    "Is USB-C to USB-C not any faster then ... — I always thought C to see direct was nominally faster?",
+    "Daughter's USB-C charger gives extra 7% phone charge in ... — Wow! My daughters USB/C has just charged my phone an extra 7% in 3 mins. Blown away!",
+    "The Best USB Phone Charger — The Anker PowerPort III Nano is the best option for charging any phone fast: It's tiny and inexpensive, and it can get a fully drained phone ...",
+    "USB-C Power Delivery: How Does Fast Charging Work? - uni — USB-C Power Delivery: How Does Fast Charging Work? ; Samsung Galaxy S21 Ultra. 5000 mAh. 1 hour 10 minutes. 25W USB-C ; Google Pixel 6. 4614 mAh.",
+    "The BEST USB-C wall chargers: OVER 20 adapters TESTED! ... — We have tested more than 30 of the most popular USB-C chargers on the market in a search for the best ones. From lower power, cheaper ..."
+   ]
+  },
+  "If that trade sounds fair, the pair is under $50 and linked in the description — link is in the description.": {
+   "query": "If that trade sounds fair, the pair is under $50 and linked in the description — link is in the description.",
+   "verdict": "thin",
+   "reason": "web hits found, but the subject itself is not echoed in them — evidence is generic, treat with caution",
+   "hits": 6,
+   "wiki_hits": 883,
+   "wiki_title": "Link light rail",
+   "source": "tinyfish+wiki",
+   "results": [
+    {
+     "title": "Get the Samsung Galaxy Tab S10+ and save £216. Now just ...",
+     "snippet": "Get the Samsung Galaxy Tab S10+ and save £216. Now just £58.50 a month (was £67.50) with 5GB data, all on the UK's best network.",
+     "url": "https://www.facebook.com/ee/posts/get-the-samsung-galaxy-tab-s10-and-save-216-now-just-5850-a-month-was-6750-with-/1405994748377912/",
+     "site_name": "www.facebook.com"
+    },
+    {
+     "title": "BEWARE OF NEW TRADE SCAM",
+     "snippet": "I have recently been scammed by some sort of trade link that seems to bypass the steam authentication or changes the trade items without ...",
+     "url": "https://steamcommunity.com/discussions/forum/7/1693785035823372295/",
+     "site_name": "steamcommunity.com"
+    },
+    {
+     "title": "Do's and Don'ts of Selling on Facebook Marketplace",
+     "snippet": "Don't say something is “brand new” reduce it to $50 to make it look like you did some big discount. List them at the price for the set, then go ...",
+     "url": "https://artscrackers.com/2019/07/04/selling-on-facebook-marketplace/",
+     "site_name": "artscrackers.com"
+    },
+    {
+     "title": "The choices we make about AI now are critical | Bill Gates",
+     "snippet": "AI will either be the greatest equalizer ever invented, or the worst source of injustice. We need to start planning now so it makes the world a fairer place.",
+     "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+     "site_name": "www.gatesnotes.com"
+    },
+    {
+     "title": "Liquidity Adequacy Requirements (LAR) (2026) Chapter 2",
+     "snippet": "This standard aims to ensure that an institution has an adequate stock of unencumbered HQLA that consists of cash or assets that can be ...",
+     "url": "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/liquidity-adequacy-requirements-lar-2026-chapter-2-liquidity-coverage-ratio",
+     "site_name": "www.osfi-bsif.gc.ca"
+    },
+    {
+     "title": "12 CFR Part 324 -- Capital Adequacy of FDIC-Supervised ...",
+     "snippet": "This part 324 establishes minimum capital requirements and overall capital adequacy standards for FDIC-supervised institutions.",
+     "url": "https://www.ecfr.gov/current/title-12/chapter-III/subchapter-B/part-324",
+     "site_name": "www.ecfr.gov"
+    }
+   ],
+   "evidence": [
+    "Get the Samsung Galaxy Tab S10+ and save £216. Now just ... — Get the Samsung Galaxy Tab S10+ and save £216. Now just £58.50 a month (was £67.50) with 5GB data, all on the UK's best network.",
+    "BEWARE OF NEW TRADE SCAM — I have recently been scammed by some sort of trade link that seems to bypass the steam authentication or changes the trade items without ...",
+    "Do's and Don'ts of Selling on Facebook Marketplace — Don't say something is “brand new” reduce it to $50 to make it look like you did some big discount. List them at the price for the set, then go ...",
+    "The choices we make about AI now are critical | Bill Gates — AI will either be the greatest equalizer ever invented, or the worst source of injustice. We need to start planning now so it makes the world a fairer place.",
+    "Liquidity Adequacy Requirements (LAR) (2026) Chapter 2 — This standard aims to ensure that an institution has an adequate stock of unencumbered HQLA that consists of cash or assets that can be ...",
+    "12 CFR Part 324 -- Capital Adequacy of FDIC-Supervised ... — This part 324 establishes minimum capital requirements and overall capital adequacy standards for FDIC-supervised institutions."
+   ]
+  }
+ },
+ "upload": "pending"
+}

@@ -1,0 +1,16 @@
+# Python environment (rebuild with: python -m venv .venv)
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets — never commit
+config/api_keys.yaml
+.env
+
+# Heavy regeneratable outputs (rebuild with the pipeline)
+content/rendered/
+content/audio/
+
+# OS noise
+Thumbs.db
+Desktop.ini

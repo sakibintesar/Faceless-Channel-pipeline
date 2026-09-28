@@ -1,0 +1,58 @@
+{
+  "topic": "5 AI side hustles that actually pay in 2026",
+  "platform": "youtube",
+  "timestamp": "20260928-194012",
+  "stages": {
+    "research": {
+      "source": "simurg.websearch (live)",
+      "count": 6
+    },
+    "script": {
+      "provider": "DemoLLM (offline template, $0)",
+      "guard": "clean",
+      "chars": 515
+    },
+    "factcheck": {
+      "claims_checked": 3,
+      "attested": 0,
+      "thin": 3,
+      "no_record": 0
+    },
+    "seo": {
+      "platform": "youtube",
+      "fields": [
+        "platform",
+        "titles",
+        "title_primary",
+        "description",
+        "tags",
+        "hooks",
+        "affiliate_link",
+        "disclosures"
+      ]
+    },
+    "tts": {
+      "ok": true,
+      "voice": "en-US-ChristopherNeural",
+      "duration_sec": 36.58
+    },
+    "visuals": {
+      "stock_items": 0,
+      "downloaded": 0,
+      "ai_prompts": 3
+    },
+    "assemble": {
+      "ok": true,
+      "out": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\faceless-research\\content\\rendered\\5-ai-side-hustles-that-actually-pay-in-2026.mp4",
+      "duration_sec": 37.44,
+      "engine": "moviepy 2.x (MIT)"
+    },
+    "subtitles": {
+      "srt": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\faceless-research\\content\\subtitles\\5-ai-side-hustles-that-actually-pay-in-2026.srt"
+    },
+    "upload": {
+      "mode": "dry-run",
+      "ok": true
+    }
+  }
+}
