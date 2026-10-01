@@ -1,5 +1,5 @@
 {
-  "topic": "The 3 free tools behind every faceless channel",
+  "topic": "the-3-free-tools-behind-every-faceless-channel",
   "provider": "DemoLLM (offline template, $0)",
   "script_path": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\faceless-research\\content\\scripts\\the-3-free-tools-behind-every-faceless-channel.txt",
   "chars": 521,
@@ -11,5 +11,5 @@
     "classes": [],
     "summary": "verdict=clean p_corrupt=0.000 released=521/521 chars"
   },
-  "timestamp": "20260929-012520"
+  "timestamp": "20261001-175347"
 }

@@ -1,0 +1,186 @@
+{
+  "timestamp": "20261001-175357",
+  "claims_checked": 3,
+  "attested": 0,
+  "thin": 3,
+  "no_record": 0,
+  "items": [
+    {
+      "claim": "Stop scrolling — the-3-free-tools-behind-every-faceless-channel is the side hustle nobody is talking about.",
+      "verdict": "thin",
+      "action": "flag for manual review or rewrite",
+      "evidence": {
+        "query": "Stop scrolling — the-3-free-tools-behind-every-faceless-channel is the side hustle nobody is talking about.",
+        "reason": "web hits found, but the subject itself is not echoed in them — evidence is generic, treat with caution",
+        "hits": 6,
+        "wiki_hits": 0,
+        "wiki_title": "",
+        "source": "tinyfish",
+        "results": [
+          {
+            "title": "3 AI Tools Behind Every Faceless YouTube Channel #ai #grow ...",
+            "snippet": "The 3 tools making faceless channels … 1️⃣ Pictory — turns a script into a full video automatically 2️⃣ ElevenLabs — realistic AI voiceover from ...",
+            "url": "https://www.youtube.com/shorts/FUHmSHGv730",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "Stop scrolling. - Facebook",
+            "snippet": "I'll show you how to create faceless YouTube videos for FREE — even if you're a complete beginner. No camera. No showing your face. a content ... Missing:  hustle  | Show results with:",
+            "url": "https://www.facebook.com/groups/2788777944712613/posts/4499809370276120/",
+            "site_name": "www.facebook.com"
+          },
+          {
+            "title": "The YouTube Side Hustle No One Talks About - Vocal Media",
+            "snippet": "YouTube favors engagement and watch time — not your face. Faceless channels scale fast if you post consistently and optimize your titles, thumbnails, and SEO.",
+            "url": "https://vocal.media/journal/how-i-earned-3-000-a-month-without-showing-my-face-the-you-tube-side-hustle-no-one-talks-about",
+            "site_name": "vocal.media"
+          },
+          {
+            "title": "The $200/Month Faceless YouTube Channel That Cost Me ...",
+            "snippet": "Forget passive income promises. These 7 \"AI Fixer\" side hustles pay $25-75/hour refining what ChatGPT can't perfect.",
+            "url": "https://medium.com/write-a-catalyst/the-200-month-faceless-youtube-channel-that-cost-me-1-400-269b1eb8b703",
+            "site_name": "medium.com"
+          },
+          {
+            "title": "STOP SCROLLING! 3 FREE AI TOOLS YOU SHOULD KNOW",
+            "snippet": "3 free AI tools that can save you time every day! ChatGPT • Canva AI • Gamma. STOP SCROLLING! AI tools that can save you time every day!",
+            "url": "https://www.youtube.com/shorts/7d-_t9DTw0g",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "How I'd Start a Faceless YouTube Channel in 2026 - Reddit",
+            "snippet": "1. Your niche matters infinitely more than the AI tools you use. · 2. Finalise 10 video ideas · 3. Packaging - Titles & Thumbnails · 4. Scripting. Missing:  side  hustle",
+            "url": "https://www.reddit.com/r/aitubers/comments/1uql5vq/how_id_start_a_faceless_youtube_channel_in_2026/",
+            "site_name": "www.reddit.com"
+          }
+        ],
+        "evidence": [
+          "3 AI Tools Behind Every Faceless YouTube Channel #ai #grow ... — The 3 tools making faceless channels … 1️⃣ Pictory — turns a script into a full video automatically 2️⃣ ElevenLabs — realistic AI voiceover from ...",
+          "Stop scrolling. - Facebook — I'll show you how to create faceless YouTube videos for FREE — even if you're a complete beginner. No camera. No showing your face. a content ... Missing:  hustle  | Show results with:",
+          "The YouTube Side Hustle No One Talks About - Vocal Media — YouTube favors engagement and watch time — not your face. Faceless channels scale fast if you post consistently and optimize your titles, thumbnails, and SEO.",
+          "The $200/Month Faceless YouTube Channel That Cost Me ... — Forget passive income promises. These 7 \"AI Fixer\" side hustles pay $25-75/hour refining what ChatGPT can't perfect.",
+          "STOP SCROLLING! 3 FREE AI TOOLS YOU SHOULD KNOW — 3 free AI tools that can save you time every day! ChatGPT • Canva AI • Gamma. STOP SCROLLING! AI tools that can save you time every day!",
+          "How I'd Start a Faceless YouTube Channel in 2026 - Reddit — 1. Your niche matters infinitely more than the AI tools you use. · 2. Finalise 10 video ideas · 3. Packaging - Titles & Thumbnails · 4. Scripting. Missing:  side  hustle"
+        ]
+      }
+    },
+    {
+      "claim": "Here is the honest math on the-3-free-tools-behind-every-faceless-channel.",
+      "verdict": "thin",
+      "action": "flag for manual review or rewrite",
+      "evidence": {
+        "query": "Here is the honest math on the-3-free-tools-behind-every-faceless-channel.",
+        "reason": "web hits found, but the subject itself is not echoed in them — evidence is generic, treat with caution",
+        "hits": 6,
+        "wiki_hits": 2,
+        "wiki_title": "List of stock characters",
+        "source": "tinyfish+wiki",
+        "results": [
+          {
+            "title": "The Real Math Behind a $10K Faceless AI YouTube Channel",
+            "snippet": "A solopreneur I advised last year built a true-crime narration channel exactly the “faceless” way: AI scripts, a cloned voice, stock footage.",
+            "url": "https://medium.com/@automation.labs/the-real-math-behind-a-10k-faceless-ai-youtube-channel-4f40896325bc",
+            "site_name": "medium.com"
+          },
+          {
+            "title": "How I'll Built A $72K/Yr Faceless YouTube Channel With 3 AI ...",
+            "snippet": "Free 7-Day Trial: https://www.skool.com/youtube-growth-secrets-8310/about?ref=66fc0e3961224352950c574769bab4ad Use VidIQ for $1 ... Missing:  Here  honest  math  behind-",
+            "url": "https://www.youtube.com/watch?v=7C5NrMYKEGY",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "Do Faceless YouTube Channels Make Money? The Honest Math",
+            "snippet": "Yes, faceless YouTube channels make money, and the ones that do have one thing in common: the operator knew the cost of every video before ... Missing:  behind-  | Show results with:",
+            "url": "https://www.trezalabs.com/blog/do-faceless-youtube-channels-make-money",
+            "site_name": "www.trezalabs.com"
+          },
+          {
+            "title": "3 AI Tools Behind Every Faceless YouTube Channel #ai #grow ...",
+            "snippet": "The 3 tools making faceless channels blow up right now 👇 1️⃣ Pictory — turns a script into a full video automatically 2️⃣ ElevenLabs ...",
+            "url": "https://www.youtube.com/shorts/FUHmSHGv730",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "I used 5 free AI tools to build a faceless YouTube channel",
+            "snippet": "Been building an AI focused YouTube channel called AI Decoded and testing free tools that actually move the needle for content creation.",
+            "url": "https://www.reddit.com/r/Agentic_Marketing/comments/1t0eg9d/i_used_5_free_ai_tools_to_build_a_faceless/",
+            "site_name": "www.reddit.com"
+          },
+          {
+            "title": "Faceless YouTube 'Makes $10K a Month.' The Real Math Says ...",
+            "snippet": "The tool stack runs about $95 a month — roughly $22 for an AI voice tier, $30 for a faceless video/editing tool, $18 for AI images plus stock, ...",
+            "url": "https://medium.com/@automation.labs/faceless-youtube-makes-10k-a-month-the-real-math-says-280-797cb229873a",
+            "site_name": "medium.com"
+          }
+        ],
+        "evidence": [
+          "The Real Math Behind a $10K Faceless AI YouTube Channel — A solopreneur I advised last year built a true-crime narration channel exactly the “faceless” way: AI scripts, a cloned voice, stock footage.",
+          "How I'll Built A $72K/Yr Faceless YouTube Channel With 3 AI ... — Free 7-Day Trial: https://www.skool.com/youtube-growth-secrets-8310/about?ref=66fc0e3961224352950c574769bab4ad Use VidIQ for $1 ... Missing:  Here  honest  math  behind-",
+          "Do Faceless YouTube Channels Make Money? The Honest Math — Yes, faceless YouTube channels make money, and the ones that do have one thing in common: the operator knew the cost of every video before ... Missing:  behind-  | Show results with:",
+          "3 AI Tools Behind Every Faceless YouTube Channel #ai #grow ... — The 3 tools making faceless channels blow up right now 👇 1️⃣ Pictory — turns a script into a full video automatically 2️⃣ ElevenLabs ...",
+          "I used 5 free AI tools to build a faceless YouTube channel — Been building an AI focused YouTube channel called AI Decoded and testing free tools that actually move the needle for content creation.",
+          "Faceless YouTube 'Makes $10K a Month.' The Real Math Says ... — The tool stack runs about $95 a month — roughly $22 for an AI voice tier, $30 for a faceless video/editing tool, $18 for AI images plus stock, ..."
+        ]
+      }
+    },
+    {
+      "claim": "The fastest first dollar comes from affiliate links, which pay before ad revenue unlocks.",
+      "verdict": "thin",
+      "action": "flag for manual review or rewrite",
+      "evidence": {
+        "query": "The fastest first dollar comes from affiliate links, which pay before ad revenue unlocks.",
+        "reason": "web hits found, but the subject itself is not echoed in them — evidence is generic, treat with caution",
+        "hits": 6,
+        "wiki_hits": 8,
+        "wiki_title": "Wikipedia",
+        "source": "tinyfish+wiki",
+        "results": [
+          {
+            "title": "I Made My First Affiliate Sale Using AI and YouTube",
+            "snippet": "Complete beginner's guide to earning your first affiliate commission using YouTube and AI tools in 90 days. This video shows you exactly how to ...",
+            "url": "https://www.youtube.com/watch?v=lfvdCwsgkns",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "How Fast Can You Make Good Money With Affiliate ...",
+            "snippet": "Most well-made niche sites will see their first affiliate commissions within the first 6 months. But there is a huge difference between a site that makes a few ...",
+            "url": "https://onlinesellingexperiment.com/how-fast-can-affiliate-marketing-generate-money/",
+            "site_name": "onlinesellingexperiment.com"
+          },
+          {
+            "title": "Affiliate Marketing Tutorial For Beginners 2026 (Ultimate Step- ...",
+            "snippet": "This is seriously the ONLY Affiliate Marketing Tutorial. Start your LLC for just $39! This includes 1 FREE year of registered agent services … ...",
+            "url": "https://www.youtube.com/watch?v=wLm-yYco8tQ",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "How Fast Can You Make Money with Affiliate Marketing?",
+            "snippet": "First commissions can happen on Day 1, but consistent income typically takes 3-6 months of focused execution. Speed to sale is dictated by four ...",
+            "url": "https://www.clickbank.com/blog/how-fast-can-you-make-money-with-affiliate-marketing",
+            "site_name": "www.clickbank.com"
+          },
+          {
+            "title": "How I Make Money ($150k/year) With Affiliate Marketing",
+            "snippet": "I've been consistently hitting around $150000/year with affiliate marketing and spent way too many hours writing this tutorial to show you how I did it.",
+            "url": "https://onlinemediamasters.com/how-to-make-money-with-affiliate-marketing/",
+            "site_name": "onlinemediamasters.com"
+          },
+          {
+            "title": "How long did it take for you to start seeing revenue after ...",
+            "snippet": "Some affiliates start generating revenue within a few weeks of starting their affiliate marketing efforts, while others may take several months ...",
+            "url": "https://www.reddit.com/r/Affiliatemarketing/comments/11i6e3m/how_long_did_it_take_for_you_to_start_seeing/",
+            "site_name": "www.reddit.com"
+          }
+        ],
+        "evidence": [
+          "I Made My First Affiliate Sale Using AI and YouTube — Complete beginner's guide to earning your first affiliate commission using YouTube and AI tools in 90 days. This video shows you exactly how to ...",
+          "How Fast Can You Make Good Money With Affiliate ... — Most well-made niche sites will see their first affiliate commissions within the first 6 months. But there is a huge difference between a site that makes a few ...",
+          "Affiliate Marketing Tutorial For Beginners 2026 (Ultimate Step- ... — This is seriously the ONLY Affiliate Marketing Tutorial. Start your LLC for just $39! This includes 1 FREE year of registered agent services … ...",
+          "How Fast Can You Make Money with Affiliate Marketing? — First commissions can happen on Day 1, but consistent income typically takes 3-6 months of focused execution. Speed to sale is dictated by four ...",
+          "How I Make Money ($150k/year) With Affiliate Marketing — I've been consistently hitting around $150000/year with affiliate marketing and spent way too many hours writing this tutorial to show you how I did it.",
+          "How long did it take for you to start seeing revenue after ... — Some affiliates start generating revenue within a few weeks of starting their affiliate marketing efforts, while others may take several months ..."
+        ]
+      }
+    }
+  ]
+}

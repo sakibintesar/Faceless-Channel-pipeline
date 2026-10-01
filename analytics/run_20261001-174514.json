@@ -1,0 +1,57 @@
+{
+  "topic": "faceless-youtube-niches-with-the-highest-rpm",
+  "platform": "youtube",
+  "timestamp": "20261001-174251",
+  "stages": {
+    "research": {
+      "source": "simurg.websearch (live)",
+      "count": 6
+    },
+    "script": {
+      "provider": "DemoLLM (offline template, $0)",
+      "guard": "clean",
+      "chars": 517
+    },
+    "factcheck": {
+      "claims_checked": 1,
+      "attested": 0,
+      "thin": 1,
+      "no_record": 0
+    },
+    "seo": {
+      "platform": "youtube",
+      "fields": [
+        "platform",
+        "titles",
+        "title_primary",
+        "description",
+        "tags",
+        "hooks",
+        "affiliate_link",
+        "disclosures"
+      ]
+    },
+    "tts": {
+      "ok": true,
+      "voice": "en-US-ChristopherNeural",
+      "duration_sec": 33.91
+    },
+    "visuals": {
+      "stock_items": 0,
+      "downloaded": 0,
+      "ai_prompts": 3
+    },
+    "assemble": {
+      "ok": true,
+      "out": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\faceless-research\\content\\rendered\\faceless-youtube-niches-with-the-highest-rpm.mp4",
+      "engine": "ffmpeg (imageio-ffmpeg)"
+    },
+    "subtitles": {
+      "srt": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\faceless-research\\content\\subtitles\\faceless-youtube-niches-with-the-highest-rpm.srt"
+    },
+    "upload": {
+      "mode": "dry-run",
+      "ok": true
+    }
+  }
+}

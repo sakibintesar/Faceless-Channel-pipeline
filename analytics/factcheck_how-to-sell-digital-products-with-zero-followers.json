@@ -1,0 +1,68 @@
+{
+  "timestamp": "20261001-175128",
+  "claims_checked": 1,
+  "attested": 0,
+  "thin": 1,
+  "no_record": 0,
+  "items": [
+    {
+      "claim": "The fastest first dollar comes from affiliate links, which pay before ad revenue unlocks.",
+      "verdict": "thin",
+      "action": "flag for manual review or rewrite",
+      "evidence": {
+        "query": "The fastest first dollar comes from affiliate links, which pay before ad revenue unlocks.",
+        "reason": "web hits found, but the subject itself is not echoed in them — evidence is generic, treat with caution",
+        "hits": 6,
+        "wiki_hits": 8,
+        "wiki_title": "Wikipedia",
+        "source": "tinyfish+wiki",
+        "results": [
+          {
+            "title": "I Made My First Affiliate Sale Using AI and YouTube",
+            "snippet": "Complete beginner's guide to earning your first affiliate commission using YouTube and AI tools in 90 days. This video shows you exactly how to ...",
+            "url": "https://www.youtube.com/watch?v=lfvdCwsgkns",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "How Fast Can You Make Good Money With Affiliate ...",
+            "snippet": "Most well-made niche sites will see their first affiliate commissions within the first 6 months. But there is a huge difference between a site that makes a few ...",
+            "url": "https://onlinesellingexperiment.com/how-fast-can-affiliate-marketing-generate-money/",
+            "site_name": "onlinesellingexperiment.com"
+          },
+          {
+            "title": "Affiliate Marketing Tutorial For Beginners 2026 (Ultimate Step- ...",
+            "snippet": "This is seriously the ONLY Affiliate Marketing Tutorial. Start your LLC for just $39! This includes 1 FREE year of registered agent services … ...",
+            "url": "https://www.youtube.com/watch?v=wLm-yYco8tQ",
+            "site_name": "www.youtube.com"
+          },
+          {
+            "title": "How Fast Can You Make Money with Affiliate Marketing?",
+            "snippet": "First commissions can happen on Day 1, but consistent income typically takes 3-6 months of focused execution. Speed to sale is dictated by four ...",
+            "url": "https://www.clickbank.com/blog/how-fast-can-you-make-money-with-affiliate-marketing",
+            "site_name": "www.clickbank.com"
+          },
+          {
+            "title": "How I Make Money ($150k/year) With Affiliate Marketing",
+            "snippet": "I've been consistently hitting around $150000/year with affiliate marketing and spent way too many hours writing this tutorial to show you how I did it.",
+            "url": "https://onlinemediamasters.com/how-to-make-money-with-affiliate-marketing/",
+            "site_name": "onlinemediamasters.com"
+          },
+          {
+            "title": "How long did it take for you to start seeing revenue after ...",
+            "snippet": "Some affiliates start generating revenue within a few weeks of starting their affiliate marketing efforts, while others may take several months ...",
+            "url": "https://www.reddit.com/r/Affiliatemarketing/comments/11i6e3m/how_long_did_it_take_for_you_to_start_seeing/",
+            "site_name": "www.reddit.com"
+          }
+        ],
+        "evidence": [
+          "I Made My First Affiliate Sale Using AI and YouTube — Complete beginner's guide to earning your first affiliate commission using YouTube and AI tools in 90 days. This video shows you exactly how to ...",
+          "How Fast Can You Make Good Money With Affiliate ... — Most well-made niche sites will see their first affiliate commissions within the first 6 months. But there is a huge difference between a site that makes a few ...",
+          "Affiliate Marketing Tutorial For Beginners 2026 (Ultimate Step- ... — This is seriously the ONLY Affiliate Marketing Tutorial. Start your LLC for just $39! This includes 1 FREE year of registered agent services … ...",
+          "How Fast Can You Make Money with Affiliate Marketing? — First commissions can happen on Day 1, but consistent income typically takes 3-6 months of focused execution. Speed to sale is dictated by four ...",
+          "How I Make Money ($150k/year) With Affiliate Marketing — I've been consistently hitting around $150000/year with affiliate marketing and spent way too many hours writing this tutorial to show you how I did it.",
+          "How long did it take for you to start seeing revenue after ... — Some affiliates start generating revenue within a few weeks of starting their affiliate marketing efforts, while others may take several months ..."
+        ]
+      }
+    }
+  ]
+}

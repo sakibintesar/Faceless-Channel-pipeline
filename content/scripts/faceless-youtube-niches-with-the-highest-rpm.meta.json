@@ -1,5 +1,5 @@
 {
-  "topic": "Faceless YouTube niches with the highest RPM",
+  "topic": "faceless-youtube-niches-with-the-highest-rpm",
   "provider": "DemoLLM (offline template, $0)",
   "script_path": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\faceless-research\\content\\scripts\\faceless-youtube-niches-with-the-highest-rpm.txt",
   "chars": 517,
@@ -11,5 +11,5 @@
     "classes": [],
     "summary": "verdict=clean p_corrupt=0.000 released=517/517 chars"
   },
-  "timestamp": "20260929-012520"
+  "timestamp": "20261001-175347"
 }

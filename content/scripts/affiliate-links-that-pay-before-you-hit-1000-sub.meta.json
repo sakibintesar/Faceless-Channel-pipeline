@@ -1,15 +1,15 @@
 {
-  "topic": "Affiliate links that pay before you hit 1000 subscribers",
+  "topic": "affiliate-links-that-pay-before-you-hit-1000-sub",
   "provider": "DemoLLM (offline template, $0)",
   "script_path": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\faceless-research\\content\\scripts\\affiliate-links-that-pay-before-you-hit-1000-sub.txt",
-  "chars": 541,
+  "chars": 525,
   "guard": {
     "state": "clean",
     "p_corrupt": 0.0,
     "onset_char": null,
     "reasons": "",
     "classes": [],
-    "summary": "verdict=clean p_corrupt=0.000 released=541/541 chars"
+    "summary": "verdict=clean p_corrupt=0.000 released=525/525 chars"
   },
-  "timestamp": "20260929-012520"
+  "timestamp": "20261001-175127"
 }
