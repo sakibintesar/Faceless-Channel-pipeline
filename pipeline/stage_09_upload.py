@@ -42,6 +42,8 @@ def validate_metadata(title: str, description: str, tags: list[str]) -> dict:
         problems.append("missing affiliate disclosure (FTC)")
     if not ("ai" in description.lower() and "synthetic" in description.lower()):
         problems.append("missing AI/synthetic content disclosure (platform policy)")
+    if not ("results" in description.lower() and ("vary" in description.lower() or "typical" in description.lower())):
+        problems.append("missing earnings disclaimer (results not typical / FTC guidance)")
     return {"ok": not problems, "problems": problems}
 
 
@@ -147,7 +149,8 @@ if __name__ == "__main__":
     description = (
         "The honest math on faceless side hustles.\n\n"
         "Disclosure: affiliate links may earn a commission at no cost to you.\n"
-        "This video was created with AI-assisted scripting and a synthetic voice."
+        "This video was created with AI-assisted scripting and a synthetic voice.\n"
+        "Results shown are not typical; your results will vary. Not financial advice — do your own research."
     )
     r1 = upload_youtube(
         video,

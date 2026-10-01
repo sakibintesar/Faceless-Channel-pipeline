@@ -161,10 +161,16 @@ def run_pipeline(
     print("\n[STAGE 9] UPLOAD — dry-run gate (nothing is published)")
     from .stage_09_upload import upload_youtube
 
-    description = seo.get("description") or (
+    # Build description with all required disclosures
+    base_desc = seo.get("description") or (
         "Disclosure: affiliate links may earn a commission at no cost to you. "
         "This video was created with AI-assisted scripting and a synthetic voice."
     )
+    # Ensure earnings disclaimer is present (FTC guidance)
+    earnings_disclaimer = "Results shown are not typical; your results will vary. Not financial advice — do your own research."
+    if "results" not in base_desc.lower() or ("vary" not in base_desc.lower() and "typical" not in base_desc.lower()):
+        base_desc += "\n\n" + earnings_disclaimer
+    description = base_desc
     up = upload_youtube(
         RENDERED_DIR / f"{slug}.mp4",
         headline[:100],

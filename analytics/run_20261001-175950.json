@@ -1,0 +1,58 @@
+{
+  "topic": "the-3-free-tools-behind-every-faceless-channel",
+  "platform": "youtube",
+  "timestamp": "20261001-175346",
+  "stages": {
+    "research": {
+      "source": "simurg.websearch (live)",
+      "count": 6
+    },
+    "script": {
+      "provider": "DemoLLM (offline template, $0)",
+      "guard": "clean",
+      "chars": 521
+    },
+    "factcheck": {
+      "claims_checked": 3,
+      "attested": 0,
+      "thin": 3,
+      "no_record": 0
+    },
+    "seo": {
+      "platform": "youtube",
+      "fields": [
+        "platform",
+        "titles",
+        "title_primary",
+        "description",
+        "tags",
+        "hooks",
+        "affiliate_link",
+        "disclosures"
+      ]
+    },
+    "tts": {
+      "ok": true,
+      "voice": "en-US-ChristopherNeural",
+      "duration_sec": 37.23
+    },
+    "visuals": {
+      "stock_items": 0,
+      "downloaded": 0,
+      "ai_prompts": 3
+    },
+    "assemble": {
+      "ok": true,
+      "out": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\faceless-research\\content\\rendered\\the-3-free-tools-behind-every-faceless-channel.mp4",
+      "duration_sec": 38.09,
+      "engine": "moviepy 2.x (MIT)"
+    },
+    "subtitles": {
+      "srt": "C:\\Users\\sakib\\.cline\\data\\workspaces\\chat\\faceless-research\\content\\subtitles\\the-3-free-tools-behind-every-faceless-channel.srt"
+    },
+    "upload": {
+      "mode": "dry-run",
+      "ok": true
+    }
+  }
+}
