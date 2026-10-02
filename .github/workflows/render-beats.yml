@@ -1,0 +1,68 @@
+name: Render Beat Clips (Free)
+
+on:
+  workflow_dispatch:
+    inputs:
+      beats_json:
+        description: 'JSON array of beat texts'
+        required: true
+        type: string
+      slug:
+        description: 'Video slug'
+        required: true
+        type: string
+      total_dur:
+        description: 'Total duration in seconds'
+        required: true
+        type: string
+
+jobs:
+  render:
+    runs-on: ubuntu-latest-4-cores
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup FFmpeg
+        uses: FedericoCarboni/setup-ffmpeg@v2
+        with:
+          version: '7.0'
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install moviepy==1.0.3 pillow numpy
+          # Install ImageMagick for TextClip
+          sudo apt-get update && sudo apt-get install -y imagemagick
+
+      - name: Configure ImageMagick policy
+        run: |
+          sudo sed -i 's/<policy domain="coder" rights="none" pattern="PDF" \/>/<policy domain="coder" rights="read|write" pattern="PDF" \/>/' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/<policy domain="coder" rights="none" pattern="TEXT" \/>/<policy domain="coder" rights="read|write" pattern="TEXT" \/>/' /etc/ImageMagick-6/policy.xml
+
+      - name: Render beats
+        env:
+          BEATS_JSON: ${{ github.event.inputs.beats_json }}
+          SLUG: ${{ github.event.inputs.slug }}
+          TOTAL_DUR: ${{ github.event.inputs.total_dur }}
+        run: |
+          python -c "
+          import json, sys
+          sys.path.insert(0, 'pipeline')
+          from stage_07c_moviepy_beats import render_beats
+          beats = json.loads('''$BEATS_JSON''')
+          paths = render_beats(beats, slug='$SLUG', total_dur=float('$TOTAL_DUR'))
+          print('OUTPUT_PATHS=' + json.dumps(paths))
+          " >> $GITHUB_OUTPUT
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: beat-clips-${{ github.event.inputs.slug }}
+          path: content/visuals/moviepy_beats/${{ github.event.inputs.slug }}/*.mp4
+          retention-days: 7

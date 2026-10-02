@@ -1,0 +1,171 @@
+name: Full Video Pipeline (100% Free)
+
+on:
+  workflow_dispatch:
+    inputs:
+      script_text:
+        description: 'Raw script text'
+        required: true
+        type: string
+      slug:
+        description: 'Video slug'
+        required: true
+        type: string
+
+jobs:
+  # Stage 1-2: Parse script → beats
+  parse-script:
+    runs-on: ubuntu-latest
+    outputs:
+      beats_json: ${{ steps.parse.outputs.beats }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install -r requirements.txt
+      - id: parse
+        run: |
+          python -c "
+          from pipeline.stage_01_parse_script import parse_script
+          beats = parse_script('''${{ github.event.inputs.script_text }}''')
+          import json
+          print('beats=' + json.dumps([{'text': b.text, 'duration': b.duration} for b in beats]))
+          " >> $GITHUB_OUTPUT
+
+  # Stage 3: Generate TTS audio (using free edge-tts)
+  generate-audio:
+    needs: parse-script
+    runs-on: ubuntu-latest
+    outputs:
+      audio_paths: ${{ steps.tts.outputs.paths }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install -r requirements.txt edge-tts
+      - id: tts
+        run: |
+          python -c "
+          import json, sys
+          sys.path.insert(0, 'pipeline')
+          from stage_03_tts_free import generate_tts
+          beats = json.loads('''${{ needs.parse-script.outputs.beats_json }}''')
+          paths = generate_tts([b['text'] for b in beats], slug='${{ github.event.inputs.slug }}')
+          print('paths=' + json.dumps(paths))
+          " >> $GITHUB_OUTPUT
+      - name: Upload audio artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: audio-${{ github.event.inputs.slug }}
+          path: content/audio/${{ github.event.inputs.slug }}/*.mp3
+          retention-days: 7
+# Stage 4-5: Generate image prompts → images (using free Pollinations.ai)
+  generate-images:
+    needs: parse-script
+    runs-on: ubuntu-latest
+    outputs:
+      image_paths: ${{ steps.img.outputs.paths }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install -r requirements.txt requests
+      - id: img
+        run: |
+          python -c "
+          import json, sys
+          sys.path.insert(0, 'pipeline')
+          from stage_04_visual_prompts import generate_prompts
+          from stage_05_image_gen_free import generate_images
+          beats = json.loads('''${{ needs.parse-script.outputs.beats_json }}''')
+          prompts = generate_prompts([b['text'] for b in beats])
+          paths = generate_images(prompts, slug='${{ github.event.inputs.slug }}')
+          print('paths=' + json.dumps(paths))
+          " >> $GITHUB_OUTPUT
+      - name: Upload image artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: images-${{ github.event.inputs.slug }}
+          path: content/images/${{ github.event.inputs.slug }}/*.png
+          retention-days: 7
+
+  # Stage 7C: Render beat clips with MoviePy
+  render-beats:
+    needs: [parse-script, generate-audio, generate-images]
+    runs-on: ubuntu-latest-4-cores
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: audio-${{ github.event.inputs.slug }}
+          path: content/audio/${{ github.event.inputs.slug }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: images-${{ github.event.inputs.slug }}
+          path: content/images/${{ github.event.inputs.slug }}
+
+      - name: Setup FFmpeg
+        uses: FedericoCarboni/setup-ffmpeg@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+
+      - name: Install dependencies
+        run: |
+          pip install moviepy==1.0.3 pillow numpy
+          sudo apt-get update && sudo apt-get install -y imagemagick
+
+      - name: Configure ImageMagick
+        run: |
+          sudo sed -i 's/<policy domain="coder" rights="none" pattern="PDF" \/>/<policy domain="coder" rights="read|write" pattern="PDF" \/>/' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/<policy domain="coder" rights="none" pattern="TEXT" \/>/<policy domain="coder" rights="read|write" pattern="TEXT" \/>/' /etc/ImageMagick-6/policy.xml
+
+      - name: Render beats
+        env:
+          BEATS_JSON: ${{ needs.parse-script.outputs.beats_json }}
+          SLUG: ${{ github.event.inputs.slug }}
+        run: |
+          python -c "
+          import json, sys
+          sys.path.insert(0, 'pipeline')
+          from stage_07c_moviepy_beats import render_beats
+          beats = json.loads('''$BEATS_JSON''')
+          paths = render_beats(beats, slug='$SLUG', total_dur=sum(b['duration'] for b in beats))
+          print('OUTPUT_PATHS=' + json.dumps(paths))
+          " >> $GITHUB_OUTPUT
+
+      - name: Upload beat clips
+        uses: actions/upload-artifact@v4
+        with:
+          name: beat-clips-${{ github.event.inputs.slug }}
+          path: content/visuals/moviepy_beats/${{ github.event.inputs.slug }}/*.mp4
+          retention-days: 7
+
+  # Stage 6: Assemble final video
+  assemble-final:
+    needs: render-beats
+    runs-on: ubuntu-latest-4-cores
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: beat-clips-${{ github.event.inputs.slug }}
+          path: content/visuals/moviepy_beats/${{ github.event.inputs.slug }}
+      - uses: FedericoCarboni/setup-ffmpeg@v2
+      - name: Assemble final video
+        run: |
+          python -c "
+          import sys, glob
+          sys.path.insert(0, 'pipeline')
+          from stage_07c_moviepy_beats import assemble_final
+          clips = sorted(glob.glob('content/visuals/moviepy_beats/${{ github.event.inputs.slug }}/*.mp4'))
+          output = assemble_final(clips, '${{ github.event.inputs.slug }}_final.mp4')
+          print('FINAL=' + output)
+          "
+      - name: Upload final video
+        uses: actions/upload-artifact@v4
+        with:
+          name: final-${{ github.event.inputs.slug }}
+          path: '*_final.mp4'
+          retention-days: 30
