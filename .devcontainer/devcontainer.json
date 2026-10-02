@@ -1,0 +1,67 @@
+{
+  "name": "Faceless Pipeline",
+  "description": "Open source faceless video generation pipeline - 100% free, runs on GitHub Actions",
+  
+  // Use Python 3.11 base image with common dev tools
+  "image": "mcr.microsoft.com/devcontainers/python:3.11-bookworm",
+  
+  // Install additional features
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  
+  // Customize the container after creation
+  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt edge-tts requests && pre-commit install",
+  
+  // Port forwarding (if you run local servers)
+  "forwardPorts": [8000, 8501, 8888],
+  
+  // VS Code extensions to auto-install
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",
+        "ms-python.black-formatter",
+        "ms-python.mypy-type-checker",
+        "github.vscode-pull-request-github",
+        "github.vscode-github-actions",
+        "redhat.vscode-yaml",
+        "ms-azuretools.vscode-docker"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.linting.enabled": true,
+        "python.linting.ruffEnabled": true,
+        "python.formatting.provider": "black",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.organizeImports.ruff": "explicit",
+          "source.fixAll.ruff": "explicit"
+        },
+        "files.exclude": {
+          "**/__pycache__": true,
+          "**/.pytest_cache": true,
+          "**/.mypy_cache": true,
+          "**/*.mp4": true,
+          "**/content/": true
+        }
+      }
+    }
+  },
+  
+  // Environment variables
+  "remoteEnv": {
+    "PYTHONPATH": "${containerWorkspaceFolder}",
+    "PYTHONUNBUFFERED": "1"
+  },
+  
+  // Run commands as non-root user
+  "remoteUser": "vscode",
+  
+  // Mount workspace
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/faceless-pipeline,type=bind,consistency=cached",
+  "workspaceFolder": "/workspaces/faceless-pipeline"
+}
